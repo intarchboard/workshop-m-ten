@@ -1,6 +1,6 @@
 # Background Reading
 
-## Motivations and Principles - How should we think about measurement and management in an encrypted paradigm?
+## Motivations and Principles
 
 * Richard Barnes. "What's In It For Me? Revisiting the reasons people collaborate."
 * Iain R. Learmonth, Gurshabad Grover, Mallory Knodel. "Guidelines for Performing Safe Measurement on the Internet."
