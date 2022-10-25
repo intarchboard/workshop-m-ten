@@ -1,6 +1,6 @@
 ---
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "Report from the IAB workshop on Management Techniques in Encrypted Networks (M-TEN)"
+abbrev: "M-TEN workshop report"
 category: info
 
 docname: draft-iab-m-ten-workshop-latest
