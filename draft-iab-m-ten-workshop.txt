@@ -1,0 +1,126 @@
+
+
+
+
+Network Working Group                                         Y. N. Here
+Internet-Draft                                    Your Organization Here
+Intended status: Informational                           25 October 2022
+Expires: 28 April 2023
+
+
+   Report from the IAB workshop on Management Techniques in Encrypted
+                            Networks (M-TEN)
+                    draft-iab-m-ten-workshop-latest
+
+Abstract
+
+   TODO Abstract
+
+About This Document
+
+   This note is to be removed before publishing as an RFC.
+
+   The latest revision of this draft can be found at
+   https://intarchboard.github.io/m-ten-workshop-public/draft-iab-m-ten-
+   workshop.html.  Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-iab-m-ten-workshop/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/intarchboard/m-ten-workshop-public.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 28 April 2023.
+
+Copyright Notice
+
+   Copyright (c) 2022 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.
+
+Table of Contents
+
+   1.  Introduction
+   2.  Workshop Scope and Discussion
+     2.1.  "Where we are" - Requirements and Passive Observations
+     2.2.  "Where we want to go" - Collaboration Principles
+     2.3.  "How we get there" - Collaboration Use cases
+   Appendix A.  Position Papers
+   Appendix B.  Workshop participants
+   Appendix C.  Program Committee
+   Acknowledgments
+   Author's Address
+
+1.  Introduction
+
+   User privacy and security are constantly being improved by
+   increasingly strong and more widely deployed encryption.  This
+   workshop aims to discuss ways to improve network management
+   techniques in support of even broader adoption of encryption on the
+   Internet.
+
+   Network management techniques need to evolve to work effectively and
+   reliably in the presence of ubiquitous traffic encryption and support
+   techniques that enhance user privacy.  In an all-encrypted network,
+   it is not viable to rely on unencrypted metadata for network
+   monitoring and security functions, troubleshooting devices, and
+   passive traffic measurements.  New approaches are needed to track
+   network behaviors, e.g., by directly cooperating with endpoints and
+   applications, increasing use of in-band telemetry, increasing use of
+   active measurement approaches, and privacy-preserving inference
+   techniques.
+
+   The IAB was organizing an online workshop on October 17-19, 2022, to
+   provide a platform to explore the interaction between network
+   management and traffic encryption and initiate new work on
+   collaborative approaches that promote security and user privacy while
+   supporting operational requirements.  As such the workshop aims to
+   address the following questions:
+
+   *  What are actionable network management requirements?
+
+   *  Who is willing to work on collaborative solutions?
+
+   *  What are the starting points for collaborative solutions?
+
+2.  Workshop Scope and Discussion
+
+2.1.  "Where we are" - Requirements and Passive Observations
+
+2.2.  "Where we want to go" - Collaboration Principles
+
+2.3.  "How we get there" - Collaboration Use cases
+
+Appendix A.  Position Papers
+
+Appendix B.  Workshop participants
+
+Appendix C.  Program Committee
+
+Acknowledgments
+
+   TODO acknowledge.
+
+Author's Address
+
+   Your Name Here
+   Your Organization Here
+   Email: cmorgan@amsl.com
