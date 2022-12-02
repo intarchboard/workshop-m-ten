@@ -58,6 +58,7 @@ The IAB was organizing an online workshop on October 17-19, 2022, to provide a p
 
 ## “Where we are” - Requirements and Passive Observations
 
+The first day of the workshop agenda focused on the existing state of the relationship between network management and encrypted traffic from various angles. Presentations ranged from discussing classifiers using machine-learning to recognize traffic, to advanced techniques for evading traffic analysis, to user privacy considerations.
 
 ## “Where we want to go” - Collaboration Principles
 
