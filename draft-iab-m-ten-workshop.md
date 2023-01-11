@@ -35,7 +35,15 @@ author:
 normative:
 
 informative:
-
+  BARNES:
+    target: 
+    title: 
+    author:
+      -
+        ins: 
+        name: 
+        org:
+    date:
 
 --- abstract
 
@@ -80,39 +88,39 @@ Interested participants were openly invited to submit position papers on the wor
 
 ## Motivations and principles
 
-Richard Barnes. “What’s In It For Me? Revisiting the reasons people collaborate.”
+Richard Barnes. “What’s In It For Me? Revisiting the reasons people collaborate.” {{?BARNES}}
 
-Iain R. Learmonth, Gurshabad Grover, Mallory Knodel. “Guidelines for Performing Safe Measurement on the Internet.” (Additional rationale)
+Iain R. Learmonth, Gurshabad Grover, Mallory Knodel. “Guidelines for Performing Safe Measurement on the Internet.” (Additional rationale) {{?LEARMONTH}}
 
-Qin Wu, Jun Wu, Qiufang Ma. “Network Management of Encrypted Traffic: Detect it don’t decrypt it.”
+Qin Wu, Jun Wu, Qiufang Ma. “Network Management of Encrypted Traffic: Detect it don’t decrypt it.” {{?WU}}
 
 ## Classification and identification of encrypted traffic
 
-Luca Deri. “nDPI Research Proposal.”
+Luca Deri. “nDPI Research Proposal.” {{?DERI}}
 
-Wes Hardaker. “Network Flow Management by Probability.”
+Wes Hardaker. “Network Flow Management by Probability.” {{?HARDAKER}}
 
-Xi Jiang, Shinan Liu, Saloua Naama, Francesco Bronzino, Paul Schmitt, Nick Feamster. “Towards Designing Robust and Efficient Classifiers for Encrypted Traffic in the Modern Internet.”
+Xi Jiang, Shinan Liu, Saloua Naama, Francesco Bronzino, Paul Schmitt, Nick Feamster. “Towards Designing Robust and Efficient Classifiers for Encrypted Traffic in the Modern Internet.” {{?JIANG}}
 
-Yupeng Lei, Jun Wu, Xudong Sun, Liang Zhang, Qin Wu. “Encrypted Traffic Classification Through Deep Learning.”
+Yupeng Lei, Jun Wu, Xudong Sun, Liang Zhang, Qin Wu. “Encrypted Traffic Classification Through Deep Learning.” {{?YUPENG}}
 
 ## Ideas for collaboration and coordination between devices and networks
 
-Michael Collins. “Improving Network Monitoring Through Contracts.”
+Michael Collins. “Improving Network Monitoring Through Contracts.” {{?COLLINS}}
 
-Paul Grubbs, Arasu Arun, Ye Zhang, Joseph Bonneau, Michael Walfish. “Zero-Knowledge Middleboxes.”
+Paul Grubbs, Arasu Arun, Ye Zhang, Joseph Bonneau, Michael Walfish. “Zero-Knowledge Middleboxes.” {{?GRUBBS}}
 
-Mirja Kühlewind, Magnus Westerlund, Zaheduzzaman Sarker, Marcus Ihlar. “Relying on Relays: The future of secure communication.”
+Mirja Kühlewind, Magnus Westerlund, Zaheduzzaman Sarker, Marcus Ihlar. “Relying on Relays: The future of secure communication.” {{?KUHLEWIND}}
 
-Tommy Pauly, Richard Barnes. “Red Rover: A collaborative approach to content filtering.”
+Tommy Pauly, Richard Barnes. “Red Rover: A collaborative approach to content filtering.” {{?PAULY}}
 
-Michael Welzl. “The Sidecar: ‘Opting in’ to PEP Functions.“
+Michael Welzl. “The Sidecar: ‘Opting in’ to PEP Functions.“ {{?WELZL}}
 
 ## Other background material
 
-Pedro Casas. “Monitoring User-Perceived Quality in an Encrypted Internet – AI to the Rescue.”
+Pedro Casas. “Monitoring User-Perceived Quality in an Encrypted Internet – AI to the Rescue.” {{?CASAS}}
 
-Nalini Elkins, Mike Ackermann, Mohit P. Tahiliani, Dhruv Dhody, Prof. Tommaso Pecorella. “Performance Monitoring in Encrypted Networks: PDMv2.”
+Nalini Elkins, Mike Ackermann, Mohit P. Tahiliani, Dhruv Dhody, Prof. Tommaso Pecorella. “Performance Monitoring in Encrypted Networks: PDMv2.” {{?ELKINS}}
 
 # Workshop participants {#participants}
 
