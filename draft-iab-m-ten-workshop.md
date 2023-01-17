@@ -24,10 +24,6 @@ venue:
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: "cmorgan@amsl.com"
- -
     fullname: Mallory Knodel
     organization: Center for Democracy & Technology
     email: "mknodel@cdt.org"
@@ -36,14 +32,12 @@ normative:
 
 informative:
   BARNES:
-    target: 
-    title: 
+    target: https://github.com/intarchboard/m-ten-workshop/blob/main/papers/Barnes-Whats-In-It-For-Me-Revisiting-the-reasons-people-collaborate.pdf
+    title: What’s In It For Me? Revisiting the reasons people collaborate
     author:
       -
-        ins: 
-        name: 
-        org:
-    date:
+        name: Richard L. Barnes
+    date: August 2022
 
 --- abstract
 
