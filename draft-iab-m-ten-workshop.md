@@ -83,7 +83,7 @@ Interested participants were openly invited to submit position papers on the wor
 
 ## Motivations and principles
 
-Richard Barnes. “What’s In It For Me? Revisiting the reasons people collaborate.” {{?BARNES}}
+Richard Barnes. “What’s In It For Me? Revisiting the reasons people collaborate.” {{BARNES}}
 
 Iain R. Learmonth, Gurshabad Grover, Mallory Knodel. “Guidelines for Performing Safe Measurement on the Internet.” (Additional rationale)
 
