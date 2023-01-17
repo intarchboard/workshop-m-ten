@@ -36,6 +36,7 @@ informative:
     title: What’s In It For Me? Revisiting the reasons people collaborate
     author:
       -
+        ins:  R. Barnes
         name: Richard L. Barnes
     date: August 2022
 
