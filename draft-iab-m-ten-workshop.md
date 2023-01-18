@@ -280,6 +280,10 @@ Just as traffic classification is continually adapting, techniques to prevent tr
 
 ### Users and privacy
 
+The Privacy Enhancements and Assessments Research Group is working on a document to discuss guidelines for how to measure traffic on the Internet in a safe and privacy-friendly way ({{?I-D.irtf-pearg-safe-internet-measurement}}). These guidelines and principles provide another angle onto the discussion of passive classification and analysis of traffic.
+
+For example, a user of a network might need to consent to certain measurement and traffic treatment when joining a network.
+
 ### Discussion
 
 ## “Where we want to go” - Collaboration Principles {#day2}
