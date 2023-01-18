@@ -40,6 +40,99 @@ informative:
         name: Richard L. Barnes
     date: August 2022
 
+  CASAS:
+    target: https://github.com/intarchboard/workshop-m-ten/blob/main/papers/Casas-AI-driven-real-time-QoE-monitoring-encrypted-traffic.pdf
+    title: Monitoring User-Perceived Quality in an Encrypted Internet
+    author:
+      -
+        ins:  P. Casas
+        name: Pedro Casas
+    date: August 2022
+
+  COLLINS:
+    target: https://github.com/intarchboard/workshop-m-ten/blob/main/papers/Collins-Improving-Network-Monitoring-Through-Contracts.pdf
+    title: Improving Network Monitoring Through Contracts
+    author:
+      -
+        ins:  M. Collins
+        name: Michael Collins
+    date: August 2022
+
+  DERI:
+    target: https://github.com/intarchboard/workshop-m-ten/blob/main/papers/Deri-nDPI-Research-Proposal.pdf
+    title: nDPI Research Proposal
+    author:
+      -
+        ins:  L. Deri
+        name: Luca Deri
+    date: August 2022
+
+  ELKINS:
+    target: https://github.com/intarchboard/workshop-m-ten/blob/main/papers/Elkins-Performance-Monitoring-in-Encrypted-Networks-PDMv2.pdf
+    title: Performance Monitoring in Encrypted Networks
+    author:
+      -
+        ins:  N. Elkins
+        name: Luca Deri
+      -
+        ins:  M. Ackermann
+        name: Mike Ackermann
+      -
+        ins:  M. Tahiliani
+        name: Mohit P. Tahiliani
+      -
+        ins:  D. Dhody
+        name: Dhruv Dhody
+      -
+        ins:  T. Pecorella
+        name: Prof. Tommaso Pecorella
+    date: August 2022
+
+  GRUBBS:
+    target: https://github.com/intarchboard/workshop-m-ten/blob/main/papers/Grubbs-Zero-Knowledge%20Middleboxes.pdf
+    title: Zero-Knowledge Middleboxes
+    author:
+      -
+        ins:  P. Grubbs
+        name: Paul Grubbs
+      -
+        ins:  A. Arun
+        name: Arasu Arun
+      -
+        ins:  Y. Zhang
+        name: Ye Zhang
+      -
+        ins:  J. Bonneau
+        name: Joseph Bonneau
+      -
+        ins:  M. Walfish
+        name: Michael Walfish
+    date: August 2022
+
+  JIANG:
+    target: https://github.com/intarchboard/workshop-m-ten/blob/main/papers/Jiang-Towards-Designing-Robust-and-Efficient-Classifiers-for-Encrypted-Traffic-in-the-Modern-Internet.pdf
+    title: Towards Designing Robust and Efficient Classifiers for Encrypted Traffic in the Modern Internet
+    author:
+      -
+        ins:  X. Jiang
+        name: Xi Jiang
+      -
+        ins:  S. Liu
+        name: Shinan Liu
+      -
+        ins:  S. Naama
+        name: Saloua Naama
+      -
+        ins:  F. Bronzino
+        name: Francesco Bronzino
+      -
+        ins:  P. Schmitt
+        name: Paul Schmitt
+      -
+        ins:  N. Feamster
+        name: Nick Feamster
+    date: August 2022
+
 --- abstract
 
 The “Management Techniques in Encrypted Networks (M-TEN)” workshop was convened by the Internet Architecture Board (IAB) from 17 October 2022 to 19 October 2022 as a three-day online meeting. The workshop was organized in three parts to discuss ways to improve network management techniques in support of even broader adoption of encryption on the Internet. This report summarizes the workshop's discussion and identifies topics that warrant future work and consideration.
@@ -91,19 +184,19 @@ Qin Wu, Jun Wu, Qiufang Ma. “Network Management of Encrypted Traffic: Detect i
 
 ## Classification and identification of encrypted traffic
 
-Luca Deri. “nDPI Research Proposal.”
+Luca Deri. “nDPI Research Proposal.” {{DERI}}
 
 Wes Hardaker. “Network Flow Management by Probability.”
 
-Xi Jiang, Shinan Liu, Saloua Naama, Francesco Bronzino, Paul Schmitt, Nick Feamster. “Towards Designing Robust and Efficient Classifiers for Encrypted Traffic in the Modern Internet.”
+Xi Jiang, Shinan Liu, Saloua Naama, Francesco Bronzino, Paul Schmitt, Nick Feamster. “Towards Designing Robust and Efficient Classifiers for Encrypted Traffic in the Modern Internet.” {{JIANG}}
 
 Yupeng Lei, Jun Wu, Xudong Sun, Liang Zhang, Qin Wu. “Encrypted Traffic Classification Through Deep Learning.”
 
 ## Ideas for collaboration and coordination between devices and networks
 
-Michael Collins. “Improving Network Monitoring Through Contracts.”
+Michael Collins. “Improving Network Monitoring Through Contracts.” {{COLLINS}}
 
-Paul Grubbs, Arasu Arun, Ye Zhang, Joseph Bonneau, Michael Walfish. “Zero-Knowledge Middleboxes.”
+Paul Grubbs, Arasu Arun, Ye Zhang, Joseph Bonneau, Michael Walfish. “Zero-Knowledge Middleboxes.” {{GRUBBS}}
 
 Mirja Kühlewind, Magnus Westerlund, Zaheduzzaman Sarker, Marcus Ihlar. “Relying on Relays: The future of secure communication.”
 
@@ -113,9 +206,9 @@ Michael Welzl. “The Sidecar: ‘Opting in’ to PEP Functions.“
 
 ## Other background material
 
-Pedro Casas. “Monitoring User-Perceived Quality in an Encrypted Internet – AI to the Rescue.”
+Pedro Casas. “Monitoring User-Perceived Quality in an Encrypted Internet – AI to the Rescue.” {{CASAS}}
 
-Nalini Elkins, Mike Ackermann, Mohit P. Tahiliani, Dhruv Dhody, Prof. Tommaso Pecorella. “Performance Monitoring in Encrypted Networks: PDMv2.”
+Nalini Elkins, Mike Ackermann, Mohit P. Tahiliani, Dhruv Dhody, Prof. Tommaso Pecorella. “Performance Monitoring in Encrypted Networks: PDMv2.” {{ELKINS}}
 
 # Workshop participants {#participants}
 
