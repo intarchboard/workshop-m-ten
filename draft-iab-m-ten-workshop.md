@@ -217,6 +217,21 @@ informative:
         name: Qiufang Ma
     date: August 2022
 
+  DITTO:
+    target: https://nsg.ee.ethz.ch/fileadmin/user_upload/publications/ditto_final_ndss22.pdf
+    title: Ditto - WAN Traffic Obfuscation at Line Rate
+    author:
+      -
+        ins:  R. Meier
+        name: Roland Meier
+      -
+        ins:  V. Lenders
+        name: Vincent Lenders
+      -
+        ins:  L. Vanbever
+        name: Laurent Vanbever
+    date: April 2022
+
 --- abstract
 
 The “Management Techniques in Encrypted Networks (M-TEN)” workshop was convened by the Internet Architecture Board (IAB) from 17 October 2022 to 19 October 2022 as a three-day online meeting. The workshop was organized in three parts to discuss ways to improve network management techniques in support of even broader adoption of encryption on the Internet. This report summarizes the workshop's discussion and identifies topics that warrant future work and consideration.
@@ -247,7 +262,7 @@ The first day of the workshop agenda focused on the existing state of the relati
 
 After an introduction that covered the goals of the workshop and the starting questions (as described in {{intro}}), there were four presentations, followed by open discussion.
 
-### The state of network management and traffic classification
+### Traffic classification and network management
 
 Many existing network management techiques are passive in nature: they don't rely on an explicit signals from end hosts to negotiate with network middleboxes, but instead rely on inspecting packets to recognize traffic and apply various policies. Traffic classification, as a passive technique, is being challenged by increasing encryption.
 
@@ -259,9 +274,11 @@ Traditionally, classification has been based on experts crafting specific rules,
 
 Models that are based on closed-world data sets also become less useful over time, as traffic changes. {{JIANG}} describes experiments that showed that a model that performs with high accuracy on an initial data set became severely degraded when running on a newer data set that contained traffic from the same applications. Even in as little time as one week, the traffic classification would become degraded. However, the set of features in packets and flows that were useful for models stayed mostly consistent, even if the models themselves needed to be updated. Models where the feature space is reduced to fewer features showed better resiliency, and could be retrained more quickly. Based on this, {{JIANG}} recommends more work and research on determining which set of features in IP packets are most useful for focused machine learning analysis. {{WU}} also recommends further research investment in Artificial Intelligent (AI) analysis for network management.
 
-### The state of preventing traffic analysis
+### Preventing traffic analysis
 
-### The state of users and privacy
+Just as traffic classification is continually adapting, techniques to prevent traffic analysis and obfuscate application and user traffic are continually evolving. An invited talk from the authors of {{DITTO}} shared a novel approach with the workshop for how to build a very robust system to prevent unwanted traffic analysis.
+
+### Users and privacy
 
 ### Discussion
 
