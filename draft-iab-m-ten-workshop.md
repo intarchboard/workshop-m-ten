@@ -133,6 +133,90 @@ informative:
         name: Nick Feamster
     date: August 2022
 
+  KNODEL:
+    target: https://github.com/intarchboard/workshop-m-ten/blob/main/papers/Knodel-Guidelines-for-Performing-Safe-Measurement-on-the-Internet.pdf
+    title: Guidelines for Performing Safe Measurement on the Internet
+    author:
+      -
+        ins:  M. Knodel
+        name: Mallory Knodel
+    date: August 2022
+
+  KUEHLEWIND:
+    target: https://github.com/intarchboard/workshop-m-ten/blob/main/papers/Kuehlewind-Relying-on-Relays.pdf
+    title: Relying on Relays
+    author:
+      -
+        ins:  M. Kühlewind
+        name: Mirja Kühlewind
+      -
+        ins:  M. Westerlund
+        name: Magnus Westerlund
+      -
+        ins:  Z. Sarker
+        name: Zaheduzzaman Sarker
+      -
+        ins:  M. Ihlar
+        name: Marcus Ihlar
+    date: August 2022
+
+  LEI:
+    target: https://github.com/intarchboard/workshop-m-ten/blob/main/papers/Lei-Encrypted-Traffic-Classification-Through-Deep-Learning.pdf
+    title: Encrypted Traffic Classification Through Deep Learning
+    author:
+      -
+        ins:  Y. Lei
+        name: Yupeng Lei
+      -
+        ins:  J. Wu
+        name: Jun Wu
+      -
+        ins:  X. Sun
+        name: Xudong Sun
+      -
+        ins:  L. Zhang
+        name: Liang Zhang
+      -
+        ins:  Q. Wu
+        name: Qin Wu
+    date: August 2022
+
+  PAULY:
+    target: https://github.com/intarchboard/workshop-m-ten/blob/main/papers/Pauly-Red-Rover-A-collaborative-approach-to-content-filtering.pdf
+    title: Red Rover
+    author:
+      -
+        ins:  T. Pauly
+        name: Tommy Pauly
+      -
+        ins:  R. Barnes
+        name: Richard Barnes
+    date: August 2022
+
+  WELZL:
+    target: https://github.com/intarchboard/workshop-m-ten/blob/main/papers/Welzl-The-Sidecar-Opting-in-to-PEP-Functions.pdf
+    title: The Sidecar
+    author:
+      -
+        ins:  M. Welzl
+        name: Michael Welzl
+    date: August 2022
+
+  WU:
+    target: https://github.com/intarchboard/workshop-m-ten/blob/main/papers/Wu-mten-taxonomy.pdf
+    title: Network Management of Encrypted Traffic
+    author:
+      -
+        ins:  Q. Wu
+        name: Qin Wu
+      -
+        ins:  J. Wu
+        name: Jun Wu
+      -
+        ins:  Q. Ma
+        name: Qiufang Ma
+    date: August 2022
+
 --- abstract
 
 The “Management Techniques in Encrypted Networks (M-TEN)” workshop was convened by the Internet Architecture Board (IAB) from 17 October 2022 to 19 October 2022 as a three-day online meeting. The workshop was organized in three parts to discuss ways to improve network management techniques in support of even broader adoption of encryption on the Internet. This report summarizes the workshop's discussion and identifies topics that warrant future work and consideration.
@@ -178,9 +262,9 @@ Interested participants were openly invited to submit position papers on the wor
 
 Richard Barnes. “What’s In It For Me? Revisiting the reasons people collaborate.” {{BARNES}}
 
-Iain R. Learmonth, Gurshabad Grover, Mallory Knodel. “Guidelines for Performing Safe Measurement on the Internet.” (Additional rationale)
+Iain R. Learmonth, Gurshabad Grover, Mallory Knodel. “Guidelines for Performing Safe Measurement on the Internet.” (Additional rationale) {{KNODEL}}
 
-Qin Wu, Jun Wu, Qiufang Ma. “Network Management of Encrypted Traffic: Detect it don’t decrypt it.”
+Qin Wu, Jun Wu, Qiufang Ma. “Network Management of Encrypted Traffic: Detect it don’t decrypt it.” {{WU}}
 
 ## Classification and identification of encrypted traffic
 
@@ -190,7 +274,7 @@ Wes Hardaker. “Network Flow Management by Probability.”
 
 Xi Jiang, Shinan Liu, Saloua Naama, Francesco Bronzino, Paul Schmitt, Nick Feamster. “Towards Designing Robust and Efficient Classifiers for Encrypted Traffic in the Modern Internet.” {{JIANG}}
 
-Yupeng Lei, Jun Wu, Xudong Sun, Liang Zhang, Qin Wu. “Encrypted Traffic Classification Through Deep Learning.”
+Yupeng Lei, Jun Wu, Xudong Sun, Liang Zhang, Qin Wu. “Encrypted Traffic Classification Through Deep Learning.” {{LEI}}
 
 ## Ideas for collaboration and coordination between devices and networks
 
@@ -198,11 +282,11 @@ Michael Collins. “Improving Network Monitoring Through Contracts.” {{COLLINS
 
 Paul Grubbs, Arasu Arun, Ye Zhang, Joseph Bonneau, Michael Walfish. “Zero-Knowledge Middleboxes.” {{GRUBBS}}
 
-Mirja Kühlewind, Magnus Westerlund, Zaheduzzaman Sarker, Marcus Ihlar. “Relying on Relays: The future of secure communication.”
+Mirja Kühlewind, Magnus Westerlund, Zaheduzzaman Sarker, Marcus Ihlar. “Relying on Relays: The future of secure communication.” {{KUEHLEWIND}}
 
-Tommy Pauly, Richard Barnes. “Red Rover: A collaborative approach to content filtering.”
+Tommy Pauly, Richard Barnes. “Red Rover: A collaborative approach to content filtering.” {{PAULY}}
 
-Michael Welzl. “The Sidecar: ‘Opting in’ to PEP Functions.“
+Michael Welzl. “The Sidecar: ‘Opting in’ to PEP Functions.“ {{WELZL}}
 
 ## Other background material
 
