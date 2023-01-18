@@ -225,7 +225,7 @@ Note that this document is a report on the proceedings of the workshop. The view
 
 --- middle
 
-# Introduction
+# Introduction {#intro}
 
 User privacy and security are constantly being improved by increasingly strong and more widely deployed encryption. This workshop aims to discuss ways to improve network management techniques in support of even broader adoption of encryption on the Internet.
 
@@ -239,17 +239,37 @@ The aim of this IAB online workshop from October 17-19, 2022, has been to provid
 
 # Workshop Scope and Discussion
 
-The workshop was organized across three, all-group discussion slots, one per day. The following topic areas were identified and the programme committee organized paper submissions into three main themes for each of the three discussion slots. During each discussion, those papers were presented sequentially with open discussion held at the end of each day.
+The workshop was organized across three, all-group discussion slots, one per day. The following topic areas were identified and the program committee organized paper submissions into three main themes for each of the three discussion slots. During each discussion, those papers were presented sequentially with open discussion held at the end of each day.
 
-## “Where we are” - Requirements and Passive Observations
+## “Where we are” - Requirements and Passive Observations {#day1}
 
 The first day of the workshop agenda focused on the existing state of the relationship between network management and encrypted traffic from various angles. Presentations ranged from discussing classifiers using machine-learning to recognize traffic, to advanced techniques for evading traffic analysis, to user privacy considerations.
 
-## “Where we want to go” - Collaboration Principles
+After an introduction that covered the goals of the workshop and the starting questions (as described in {{intro}}), there were four presentations, followed by open discussion.
+
+### The state of network management and traffic classification
+
+Many existing network management techiques are passive in nature: they don't rely on an explicit signals from end hosts to negotiate with network middleboxes, but instead rely on inspecting packets to recognize traffic and apply various policies. Traffic classification, as a passive technique, is being challenged by increasing encryption.
+
+Traffic classification is commonly performed by networks to infer what applications and services are being used. This information is in turn used for capacity and resource planning, Quality-of-Service (QoS) monitoring, traffic prioritization, network access control, identity management, and malware detection. However, since classification traditionally relies on recognizing unencrypted properties of packets in a flow, increasing encryption of traffic can decrease the effectiveness of classification.
+
+The amount of classification that can be performed on traffic also provides a useful insight onto how "leaky" the protocols used by applications are, and points to areas where information is visible to any observer, which may be malicious or not.
+
+Traditionally, classification has been based on experts crafting specific rules, but there is also a move toward using maching learning to recognize patterns. "Deep learning" machine learning models generally rely on analyzing a large set of traffic over time, and have trouble reacting quickly to changes in traffic patterns.
+
+Models that are based on closed-world data sets also become less useful over time, as traffic changes. {{JIANG}} describes experiments that showed that a model that performs with high accuracy on an initial data set became severely degraded when running on a newer data set that contained traffic from the same applications. Even in as little time as one week, the traffic classification would become degraded. However, the set of features in packets and flows that were useful for models stayed mostly consistent, even if the models themselves needed to be updated. Models where the feature space is reduced to fewer features showed better resiliency, and could be retrained more quickly. Based on this, {{JIANG}} recommends more work and research on determining which set of features in IP packets are most useful for focused machine learning analysis. {{WU}} also recommends further research investment in Artificial Intelligent (AI) analysis for network management.
+
+### The state of preventing traffic analysis
+
+### The state of users and privacy
+
+### Discussion
+
+## “Where we want to go” - Collaboration Principles {#day2}
 
 The second day of the workshop agenda focused on the emerging techniques for analysing, managing or monitoring encrypted traffic. Presentations ranged from discussing advanced classification and identification, including machine-learning techniques, for the purposes of manging network flows, monitoring or monetising usage.
 
-## “How we get there” - Collaboration Use cases
+## “How we get there” - Collaboration Use cases {#day3}
 
 
 --- back
