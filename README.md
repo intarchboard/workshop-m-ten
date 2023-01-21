@@ -1,17 +1,16 @@
-# TODO - Your title
+# Report from the IAB workshop on Management Techniques in Encrypted Networks (M-TEN)
 
-This is the working area for the individual Internet-Draft, "TODO - Your title".
+This is the working area for the IAB draft, "Report from the IAB workshop on Management Techniques in Encrypted Networks (M-TEN)".
 
-* [Editor's Copy](https://intarchboard.github.io/m-ten-workshop-public/#go.draft-iab-m-ten-workshop.html)
+* [Editor's Copy](https://intarchboard.github.io/workshop-m-ten/#go.draft-iab-m-ten-workshop.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-iab-m-ten-workshop)
 * [Individual Draft](https://datatracker.ietf.org/doc/html/draft-iab-m-ten-workshop)
-* [Compare Editor's Copy to Individual Draft](https://intarchboard.github.io/m-ten-workshop-public/#go.draft-iab-m-ten-workshop.diff)
-
+* [Compare Editor's Copy to Individual Draft](https://intarchboard.github.io/workshop-m-ten/#go.draft-iab-m-ten-workshop.diff)
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/intarchboard/m-ten-workshop-public/blob//CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/intarchboard/workshop-m-ten/blob//CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.
