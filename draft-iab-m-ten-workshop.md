@@ -368,6 +368,32 @@ open internet where end users are driving all network connections.
 
 ## Zero Knowledge Middleboxes
 
+The world is shifting to increased encrypted traffic, but is also
+encrypting more and more of the metadata like DNS.  This makes policy
+enforcement by middle-boxes significantly more challenging.  A
+significant tension has been created between security enforcement and
+privacy protection.
+
+Our goals for solving this problem should include not weakening
+encryption, enabling networks to enforce their policies, and ideally
+should not require deployed server software.  Existing solutions fail
+with at least one of these points.
+
+A cryptographic principle of a "zero knowledge proof" (ZKP) may help
+here.  A ZKP allows a third party to verify that a statement is true,
+without revealing what the statement actually is.  Applying this to
+network traffic has allowed a middle box to verify that traffic to a
+web server is actually compliant with a policy without revealing the
+contents.  This solution meets the above three criteria from above.
+ZKP within TLS 1.3 traffic turns out to be almost possible.
+
+An example engine was built to test ZKP using encrypted DNS.  Clients
+could then create DNS requests that were not in a DNS block list and
+middle boxes could be assured, without knowing the exact request, that
+the client's DNS request was not on the block list.  Although the
+result was functional, the overhead was still slow and future work
+needs to be used to decrease ZKP imposed latencies.
+
 
 
 # Conclusions
