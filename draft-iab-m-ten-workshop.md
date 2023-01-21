@@ -290,6 +290,40 @@ For example, a user of a network might need to consent to certain measurement an
 
 The second day of the workshop agenda focused on the emerging techniques for analysing, managing or monitoring encrypted traffic. Presentations ranged from discussing advanced classification and identification, including machine-learning techniques, for the purposes of manging network flows, monitoring or monetising usage.
 
+After an introduction that covered the goals of the workshop and the starting questions (as described in {{intro}}), there were three presentations, followed by open discussion.
+
+### First party collaboration for network management
+
+It is the intention of encryption to create a barrier between entities inside the communication and everyone else, including network operators when we are talking about end-to-end encryption of traffic. Any attempt, therefore, to overcome that intentional barrier requires an intent to collaborate between the inside and outside entities. Those entities must, at a minimum, agree on the benefits to overcoming the barrier (or solving the problem), that costs are proportional to the beenfits, and to additional limitations, or safeguards, against bad behaviour by collaborators including the inclusion of other non-insiders.
+
+The internet is designed interoperably, which means an outside entity wishing to collaborate with the inside might be any number of intermediaries and not, say, a specific person that can be trusted in the human sense. Additionally the use of encryption, especially network or transport encryption, introduces dynamic or opportunitistic or perfunctory discoverability. These realities both point to a need to interrogate the reason why any outside entity might make an engineering case to collaborate with the user of an encrypted network, and whether the tradeoffs and potential risks are worth it to the user.
+
+However the answers cannot be specific and the determinations or guidance need to be general as the encryption boundary is inevitably an application used by many people. Tradeoffs must make sense to users who are unlikely to be thinking about network management considerations. Harms need to be preemptively reduced because in general terms few users would choose network management benefits over their own privacy if given the choice.
+
+Additionally there appear to be little if any actual evidence that encryption is causing user-meaningful network problems. Since alignment on problem solving is a prerequisite to collaboration on a solution it does not seem that collaboration across the encryption boundary is called for.
+
+### Second and third party collaboration for network management
+
+Even with the wide-scale deployment of encryption in new protocols and techniques that prevent passive observers of network traffic from knowing the content of exchanged communications, important information such as which parties communicate and sometimes even which services have been requested may still be able to be deduced. The future is to conceal more data and metadata from passive observers and second parties (were the user is the first party) by, counterintuitively, introducing third-party relay services to intermediate communications. The relay is a mechanism to separate, using additional levels of encryption, two important pieces of information: knowledge of the identity of the person accessing a service is separated from knowledge about the service being accessed. By contrast a VPN uses only one level of encryption and does not separate identity (first party) and service (second party) metadata.
+
+Relay mechanisms are termed "oblivious", there is a future for specifications in privacy-preserving measurement (PPM), and protocols like Multiplexed Application Substrate over QUIC Encryption (MASQE) are discussed in the IETF. In various schemes users are ideally able to share their identity only with the entity they have identified as a trusted one. That data is not shared with the service provider. However this is more complicated for network management, but there may be opportunities for better collaboration between the network and, say, the application or service at the endpoint.
+
+A queriable relay mechanism could preserve network management functions that are disrupted by encryption, such as TCP optimisation, quality of service, zero-rating, parental controls, access control, redirection, content enhancement, analytics and fraud prevention. Instead of direct communication between two parties that is observable by all on-path elements and instead of encrypted communication between only two parties, intermediate relays could be trusted parties with limited information for the purposes of collaboration between in-network intermediary services' support.
+
+### Visible, optional network management
+
+In encrypted communications, out of all of the possible network management functions that might be ameliorated by proxying (or "relays" as in the previous section) the ability to control congestion has been researched in depth. Taking user privacy beenfits for granted, what this research is purely focussed on are the comparable performance outputs of various encrypted traffic configurations such as MASQE, TCP performance enhancing proxies (PEP), etc.
+
+(more).
+
+### Discussion
+
+One size fits all? On the issue of trust, different networks or devices are going to have different requirements for the level of trust that they have in devices, users or each other, and vice versa. For example, imagine networks with really different security requirements, like protecting children in a home versus a national security institution. How could one network architecture solve the needs of all use cases?
+
+Does our destination have consequences? It seems sometimes that there may be consequences many years down the line of ubiquitous, strong encryption of network traffic because it will cause a reaction by intermediaries to find ways to poke holes in what are supposed to be long-term solutions for user privacy and security. 
+
+Can we bring the user along? While there has been a focus on the good reasons for why people might collaborate across the encryption barrier, there will always be others who want to disrupt that because they are motivated to exploit the data for their own gain, and sometimes this is called innovation. What high-level policy mitigations hvae done is to expose how powerless end users are to corporate practices of data harvesting. And yet interfaces to help users understand these lower layer traffic flows to protect their financial transactions or privacy haven't been achieved yet. That means that engineers are having to make inferences about what users want. Instead we should be making these relationships and tradeoffs more visible.
+
 ## “How we get there” - Collaboration Use cases {#day3}
 
 The third day is focused on techniques that could actually be used to
