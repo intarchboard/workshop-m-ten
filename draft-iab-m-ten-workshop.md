@@ -24,9 +24,18 @@ venue:
 
 author:
  -
+    ins: M. Knodel
     fullname: Mallory Knodel
     organization: Center for Democracy & Technology
-    email: "mknodel@cdt.org"
+    email: mknodel@cdt.org
+ -
+    ins: W. Hardaker
+    fullname: Wes Hardaker
+    email: ietf@hardakers.net
+ -
+    ins: T. Pauly
+    fullname: Tommy Pauly
+    email: "tpauly@apple.com"
 
 normative:
 
@@ -320,7 +329,7 @@ In encrypted communications, out of all of the possible network management funct
 
 One size fits all? On the issue of trust, different networks or devices are going to have different requirements for the level of trust that they have in devices, users or each other, and vice versa. For example, imagine networks with really different security requirements, like protecting children in a home versus a national security institution. How could one network architecture solve the needs of all use cases?
 
-Does our destination have consequences? It seems sometimes that there may be consequences many years down the line of ubiquitous, strong encryption of network traffic because it will cause a reaction by intermediaries to find ways to poke holes in what are supposed to be long-term solutions for user privacy and security. 
+Does our destination have consequences? It seems sometimes that there may be consequences many years down the line of ubiquitous, strong encryption of network traffic because it will cause a reaction by intermediaries to find ways to poke holes in what are supposed to be long-term solutions for user privacy and security.
 
 Can we bring the user along? While there has been a focus on the good reasons for why people might collaborate across the encryption barrier, there will always be others who want to disrupt that because they are motivated to exploit the data for their own gain, and sometimes this is called innovation. What high-level policy mitigations hvae done is to expose how powerless end users are to corporate practices of data harvesting. And yet interfaces to help users understand these lower layer traffic flows to protect their financial transactions or privacy haven't been achieved yet. That means that engineers are having to make inferences about what users want. Instead we should be making these relationships and tradeoffs more visible.
 
