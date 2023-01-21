@@ -327,7 +327,10 @@ Can we bring the user along? While there has been a focus on the good reasons fo
 ## “How we get there” - Collaboration Use cases {#day3}
 
 The third day is focused on techniques that could actually be used to
-improve these situations.
+improve these situations.  A central theme of all of the proposed
+paths forward included some element of collaboration between clients
+that simultaneously want both privacy and protection.  Thus the
+central theme in the third days is negotiation and collaboration.
 
 ### Establishing expected contracts to enable security management
 
@@ -394,7 +397,21 @@ the client's DNS request was not on the block list.  Although the
 result was functional, the overhead was still slow and future work
 needs to be used to decrease ZKP imposed latencies.
 
+## Red Rover - A collaborative approach to content filtering
 
+The challenge is to deal with the conflict between filtering and
+privacy.  Network operators need to impose policies and regulations
+that can stem from many locations (security, governmental, parental,
+etc).  Clients need to protect user's privacy and user security.
+
+Safe browsing, originally created by Google, is one example of a
+mechanism that tries to meet both sides of this conflict.  It might be
+beneficial to standardize this and other similar mechanism.  Thus,
+operating systems can continue to ensure that malicious destinations
+are not being reached.  This requires some coordination between
+cooperating clients and servers offering protection services.  These
+collaborative solutions may be the best compromise between the tension
+of privacy vs protection based services.
 
 # Conclusions
 
