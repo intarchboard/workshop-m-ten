@@ -292,6 +292,51 @@ The second day of the workshop agenda focused on the emerging techniques for ana
 
 ## “How we get there” - Collaboration Use cases {#day3}
 
+The third day is focused on techniques that could actually be used to
+improve these situations.
+
+### Establishing expected contracts to enable security management
+
+The third day kicked of with Michael collins talking about "Improving
+network monitoring through contracts", where contracts describe
+different states of network behavior.  Because network operators have
+a limited amount of time to focus on problems and process alerts,
+contracts and states let the operator focus on a particular aspect of
+a current situation or problem.  The current estimate for number of
+handlable events per hour is about 10.  SOC operators must work within
+the limits imposed by their organization, pick between options that
+simply frustrate attackers as entire prevention is potentially
+impossible, and finally manage the most events possible.
+
+Validating alerts is challenging because lots of weird traffic creates
+anomalies and thus not all anomalies are malicious events.  Thus,
+identifying that anomalous traffic is rooted in malicious activity
+with any level of certainty is challenging.  Applying the latest
+techniques based on machine learning techniques has only produced
+mixed results.  To make matters worse, the large amounts of scanning
+results in endless technically malicious traffic that creates an
+information overload and challenges in event prioritization.  Any path
+forward must succeed in freeing up analyst time to think about the
+more challenging events.
+
+A proposed "contract" is a collection of acceptable behavior
+categorized into a envelope of different states that might include IP
+addresses, domain names, and indicators of compromise.  Contracts
+might indicate that a system is acting outside a normal mode of
+behavior, or even that a normal mode of behavior is suddenly
+missing.  Example contracts might be an expected update once a day to
+a base OS host, and if this doesn't occur than the expectation has not
+been met and the system should be checked as it failed to call home
+looking for updates.  The MUDD working groups {?RFC8520} is one subset
+of contracts.  Contracts are likely to only really function in a
+constrained expected environment with a SOC, and may not work in an
+open internet where end users are driving all network connections.
+
+## Zero Knowledge Middleboxes
+
+
+
+# Conclusions
 
 --- back
 
