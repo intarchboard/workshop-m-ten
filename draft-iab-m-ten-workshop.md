@@ -378,7 +378,7 @@ of contracts.  Contracts are likely to only really function in a
 constrained expected environment with a SOC, and may not work in an
 open internet where end users are driving all network connections.
 
-## Zero Knowledge Middleboxes
+### Zero Knowledge Middleboxes
 
 The world is shifting to increased encrypted traffic, but is also
 encrypting more and more of the metadata like DNS.  This makes policy
@@ -406,7 +406,7 @@ the client's DNS request was not on the block list.  Although the
 result was functional, the overhead was still slow and future work
 needs to be used to decrease ZKP imposed latencies.
 
-## Red Rover - A collaborative approach to content filtering
+### Red Rover - A collaborative approach to content filtering
 
 The challenge is to deal with the conflict between filtering and
 privacy.  Network operators need to impose policies and regulations
