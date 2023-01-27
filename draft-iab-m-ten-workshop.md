@@ -321,9 +321,9 @@ A queriable relay mechanism could preserve network management functions that are
 
 ### Visible, optional network management
 
-In encrypted communications, out of all of the possible network management functions that might be ameliorated by proxying (or "relays" as in the previous section) the ability to control congestion has been researched in depth. Taking user privacy beenfits for granted, what this research is purely focussed on are the comparable performance outputs of various encrypted traffic configurations such as MASQE, TCP performance enhancing proxies (PEP), etc.
+In encrypted communications, out of all of the possible network management functions that might be ameliorated by proxying the ability to control congestion has been researched in depth. These techniques are realized based on TCP performance enhancing proxies (PEP) that either entirely intercept a TCP connection or interfere with the transport information in the TCP header. However, beside the challenge that new encrypted protocol limited any such in-network interference, these techniques can also have negative impact on the evolvability of these protocols. Therefore, instead on manipulating existing information, a new approaches was presented  where additional information is send using a so-called side-car protocol independent of the main transport protocol that is used end-to-end {{WELZL}}. E.g. side car information can contain additional acknowledgements to enable in-network local retransmission faster end-to-end retransmission by reducing the signaling round trip time.
 
-(more).
+Taking user privacy benefits for granted, there is a need to investigate the comparable performance outputs of various encrypted traffic configurations such as use of an additional "side-car" protocol, or explicit encrypted and trusted network communication using MASQUE in relation to existing techniques based TCP performance enhancing proxies (PEP), etc.
 
 ### Discussion
 
