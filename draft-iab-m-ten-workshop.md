@@ -335,7 +335,7 @@ Can we bring the user along? While there has been a focus on the good reasons fo
 
 ## “How we get there” - Collaboration Use cases {#day3}
 
-The third day is focused on techniques that could actually be used to
+The third day focused on techniques that could actually be used to
 improve these situations.  A central theme of all of the proposed
 paths forward included some element of collaboration between clients
 that simultaneously want both privacy and protection.  Thus the
@@ -343,7 +343,7 @@ central theme in the third days is negotiation and collaboration.
 
 ### Establishing expected contracts to enable security management
 
-The third day kicked of with Michael collins talking about "Improving
+{{COLLINS}} proposes "Improving
 network monitoring through contracts", where contracts describe
 different states of network behavior.  Because network operators have
 a limited amount of time to focus on problems and process alerts,
@@ -382,7 +382,7 @@ open internet where end users are driving all network connections.
 
 The world is shifting to increased encrypted traffic, but is also
 encrypting more and more of the metadata like DNS.  This makes policy
-enforcement by middle-boxes significantly more challenging.  A
+enforcement by middleboxes significantly more challenging.  A
 significant tension has been created between security enforcement and
 privacy protection.
 
@@ -392,7 +392,7 @@ should not require deployed server software.  Existing solutions fail
 with at least one of these points.
 
 A cryptographic principle of a "zero knowledge proof" (ZKP) may help
-here.  A ZKP allows a third party to verify that a statement is true,
+here {{GRUBBS}}.  A ZKP allows a third party to verify that a statement is true,
 without revealing what the statement actually is.  Applying this to
 network traffic has allowed a middle box to verify that traffic to a
 web server is actually compliant with a policy without revealing the
@@ -401,7 +401,7 @@ ZKP within TLS 1.3 traffic turns out to be almost possible.
 
 An example engine was built to test ZKP using encrypted DNS.  Clients
 could then create DNS requests that were not in a DNS block list and
-middle boxes could be assured, without knowing the exact request, that
+middleboxes could be assured, without knowing the exact request, that
 the client's DNS request was not on the block list.  Although the
 result was functional, the overhead was still slow and future work
 needs to be used to decrease ZKP imposed latencies.
@@ -420,7 +420,7 @@ operating systems can continue to ensure that malicious destinations
 are not being reached.  This requires some coordination between
 cooperating clients and servers offering protection services.  These
 collaborative solutions may be the best compromise between the tension
-of privacy vs protection based services.
+of privacy vs protection based services {{PAULY}}.
 
 # Conclusions
 
