@@ -287,6 +287,10 @@ Models that are based on closed-world data sets also become less useful over tim
 
 Just as traffic classification is continually adapting, techniques to prevent traffic analysis and obfuscate application and user traffic are continually evolving. An invited talk from the authors of {{DITTO}} shared a novel approach with the workshop for how to build a very robust system to prevent unwanted traffic analysis.
 
+Usually traffic obfuscation is performed by changing the timing of packets or adding padding data. The practices can be costly and negatively impact performance. DITTO demonstrated the feasibility of applying traffic obfuscation on aggregated traffic in the network with minimal overhead and in line speed.
+
+While traffic obfuscation techniques are today not widely deployed, this study underlines, together with the need for continuous effort to keep traffic models updated over time, the challenges of classification of encrypted traffic as well as opportunities to further enhance user privacy.
+
 ### Users and privacy
 
 The Privacy Enhancements and Assessments Research Group is working on a document to discuss guidelines for how to measure traffic on the Internet in a safe and privacy-friendly way ({{?I-D.irtf-pearg-safe-internet-measurement}}). These guidelines and principles provide another angle onto the discussion of passive classification and analysis of traffic.
