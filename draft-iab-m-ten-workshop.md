@@ -301,6 +301,14 @@ Various techniques for data collection can also improve user privacy, such as di
 
 ### Discussion
 
+The intents and goals of users, application developers, and network operators align in some cases, but not others. One of the recurring challenges that came up was not having a clear way to understand or communicate intents and requirements. Both traffic classification and traffic obfuscation attempt to change the visibility of traffic without cooperation of other parties: traffic classification is a network attempting to inspect application traffic without coordination from applications, and traffic obfuscation is an attempt to hide that same traffic as it transits a network.
+
+Traffic adaptation and prioritization is one dimension in which the incentives for cooperation seem most clear. Even if an application is trying to prevent leaking metadata, it could benefit from signals from network about sudden capacity changes that can help it adapt its application quality, such as bitrates and codecs. Such signalling may not be appropriate for the most privacy-sensitive applications, like Tor, but could be applicable for many others. There are existing protocols that involve explicit signaling between applications and networks, such as ECN {{?RFC3168}}, but that has yet to see wide adoption.
+
+Managed networks (such a private corporate networks) was brought up in several comments as a particularly challenging area for being able to meet management requirements while maintaining encryption and privacy. These networks can have legal and regulated requirements for detection of specific fraudulent or malicious traffic.
+
+Personal networks that enable managed parental controls have similar complications with encrypted traffic and user privacy. In these scenarios, the parental controls being operated by the network may be as simple as a DNS filter, an can be made ineffective by a device routing traffic to an alternate DNS resolver.
+
 ## “Where we want to go” - Collaboration Principles {#day2}
 
 The second day of the workshop agenda focused on the emerging techniques for analysing, managing or monitoring encrypted traffic. Presentations ranged from discussing advanced classification and identification, including machine-learning techniques, for the purposes of manging network flows, monitoring or monetising usage.
