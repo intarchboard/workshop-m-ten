@@ -295,7 +295,9 @@ While traffic obfuscation techniques are today not widely deployed, this study u
 
 The Privacy Enhancements and Assessments Research Group is working on a document to discuss guidelines for how to measure traffic on the Internet in a safe and privacy-friendly way ({{?I-D.irtf-pearg-safe-internet-measurement}}). These guidelines and principles provide another angle onto the discussion of passive classification and analysis of traffic.
 
-For example, a user of a network might need to consent to certain measurement and traffic treatment when joining a network.
+Consent for collection and measurement of metadata is an important consideration in deploying network measurement techniques. This consent can be explicitly given as informed consent, or can be given by proxy or be only implied. For example, a user of a network might need to consent to certain measurement and traffic treatment when joining a network.
+
+Various techniques for data collection can also improve user privacy, such as discarding data after a short period of time, masking out aspects of data that contain user-identifying information, reducing the accuracy of collected data, and aggregating data.
 
 ### Discussion
 
