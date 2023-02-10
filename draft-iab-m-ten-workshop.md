@@ -350,47 +350,58 @@ Can we bring the user along? While there has been a focus on the good reasons fo
 ## “How we get there” - Collaboration Use cases {#day3}
 
 The third day focused on techniques that could actually be used to
-improve these situations.  A central theme of all of the proposed
-paths forward included some element of collaboration between clients
-that simultaneously want both privacy and protection.  Thus the
-central theme in the third days is negotiation and collaboration.
+improve management of encrypted networks.  A central theme of all of
+the presentations about potential proposed paths forward included some
+element of collaboration between networks and subscribing clients that
+simultaneously want both privacy and protection.  Thus, the central
+theme in the third day became negotiation and collaboration.
 
 ### Establishing expected contracts to enable security management
 
-{{COLLINS}} proposes "Improving
-network monitoring through contracts", where contracts describe
-different states of network behavior.  Because network operators have
-a limited amount of time to focus on problems and process alerts,
-contracts and states let the operator focus on a particular aspect of
-a current situation or problem.  The current estimate for number of
-handlable events per hour is about 10.  SOC operators must work within
-the limits imposed by their organization, pick between options that
-simply frustrate attackers as entire prevention is potentially
-impossible, and finally manage the most events possible.
+When thinking about enterprise networks where client behavior is
+potentially managed, {{COLLINS}} proposes "Improving network
+monitoring through contracts", where contracts describe different
+states of network behavior.
 
-Validating alerts is challenging because lots of weird traffic creates
-anomalies and thus not all anomalies are malicious events.  Thus,
-identifying that anomalous traffic is rooted in malicious activity
-with any level of certainty is challenging.  Applying the latest
-techniques based on machine learning techniques has only produced
-mixed results.  To make matters worse, the large amounts of scanning
-results in endless technically malicious traffic that creates an
-information overload and challenges in event prioritization.  Any path
-forward must succeed in freeing up analyst time to think about the
-more challenging events.
+Because network operators have a limited amount of time to focus on
+problems and process alerts, contracts and states let the operator
+focus on a particular aspect of a current situation or problem.  The
+current estimate for the number of events an SOC operator can handle
+is about 10 per hour.  Operators must work within the limits imposed
+by their organization, and must pick between options that frequently
+only frustrate attackers -- entirely preventing attacks is potentially
+impossible. Finally, operators must prioritize and manage the most
+events possible.
 
-A proposed "contract" is a collection of acceptable behavior
-categorized into a envelope of different states that might include IP
-addresses, domain names, and indicators of compromise.  Contracts
-might indicate that a system is acting outside a normal mode of
-behavior, or even that a normal mode of behavior is suddenly
-missing.  Example contracts might be an expected update once a day to
-a base OS host, and if this doesn't occur than the expectation has not
-been met and the system should be checked as it failed to call home
-looking for updates.  The MUDD working groups {?RFC8520} is one subset
-of contracts.  Contracts are likely to only really function in a
-constrained expected environment with a SOC, and may not work in an
-open internet where end users are driving all network connections.
+Validating which alerts are true positives is challenging because lots
+of weird traffic creates many anomalies and not all anomalies are
+malicious events.  Identifying what anomalous traffic is rooted in
+malicious activity with any level of certainty is extremely
+challenging.  Unfortunately, applying the latest machine learning
+techniques has only produced mixed results.  To make matters worse,
+the large amounts of Internet-wide scanning has resulted in endless
+traffic that is technically malicious but only creates an information
+overload and challenges event prioritization.  Any path forward must
+succeed in freeing up analyst time to concentrate on the more
+challenging events.
+
+The proposed contract solution is to define a collection of acceptable
+behaviors categorized into a envelope of different states that might
+include IP addresses, domain names, and indicators of compromise.
+Deviation from a contract might indicate that a system is acting
+outside a normal mode of behavior, or even that a normal mode of
+behavior is suddenly missing.  An example contracts might be "this
+system is expected to update its base OS once a day", and if this
+doesn't occur then this expectation has not been met and the system
+should be checked as it failed to call home to look for (potentially
+security related) updates.
+
+Within the IETF, the Manufacturer Usage Description Specification
+(MUDD) {?RFC8520} specification is one subset of contracts.  Note that
+contracts are likely to only succeed in a constrained, expected
+environment maintained by operational staff, and may not work in an
+open internet environment where end users are driving all network
+connections.
 
 ### Zero Knowledge Middleboxes
 
