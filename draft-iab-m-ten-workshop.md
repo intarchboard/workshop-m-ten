@@ -436,19 +436,21 @@ imposed latencies.
 
 ### Red Rover - A collaborative approach to content filtering
 
-The challenge is to deal with the conflict between filtering and
-privacy.  Network operators need to impose policies and regulations
-that can stem from many locations (security, governmental, parental,
-etc).  Clients need to protect user's privacy and user security.
+The principle challenge being studied is how to deal with the inherit
+conflict between filtering and privacy.  Network operators need to
+implement policies and regulations that can originate from many
+locations (e.g. security, governmental, parental, etc).  Conversely,
+clients need to protect user's privacy and user security.
 
 Safe browsing, originally created by Google, is one example of a
-mechanism that tries to meet both sides of this conflict.  It might be
-beneficial to standardize this and other similar mechanism.  Thus,
-operating systems can continue to ensure that malicious destinations
-are not being reached.  This requires some coordination between
-cooperating clients and servers offering protection services.  These
-collaborative solutions may be the best compromise between the tension
-of privacy vs protection based services {{PAULY}}.
+mechanism that tries to meet both sides of this conflict.  It would be
+beneficial to standardize this and other similar mechanisms.  
+Operating systems could continually protect their users by ensuring
+that malicious destinations are not being reached.  This would require
+some coordination between cooperating clients and servers offering
+protection services.  These collaborative solutions may be the best
+compromise between the tension of privacy vs protection based services
+{{PAULY}}.
 
 # Conclusions
 
