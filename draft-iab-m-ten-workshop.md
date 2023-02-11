@@ -405,31 +405,34 @@ connections.
 
 ### Zero Knowledge Middleboxes
 
-The world is shifting to increased encrypted traffic, but is also
-encrypting more and more of the metadata like DNS.  This makes policy
-enforcement by middleboxes significantly more challenging.  A
-significant tension has been created between security enforcement and
-privacy protection.
+The world is not only shifting to increased encrypted traffic, but is
+also encrypting more and more of the metadata (e.g. DNS queries and
+responses).  This makes network policy enforcement by middleboxes
+significantly more challenging.  The result is the creation of a
+significant tension between security enforcement and privacy
+protection.
 
-Our goals for solving this problem should include not weakening
-encryption, enabling networks to enforce their policies, and ideally
-should not require deployed server software.  Existing solutions fail
-with at least one of these points.
+A goal for solving this problem should include not weakening
+encryption, should enable networks to enforce their policies, and
+should ideally not require newly deployed server software.  Existing
+solutions fail with at least one of these points.
 
-A cryptographic principle of a "zero knowledge proof" (ZKP) may help
-here {{GRUBBS}}.  A ZKP allows a third party to verify that a statement is true,
-without revealing what the statement actually is.  Applying this to
-network traffic has allowed a middle box to verify that traffic to a
-web server is actually compliant with a policy without revealing the
-contents.  This solution meets the above three criteria from above.
-ZKP within TLS 1.3 traffic turns out to be almost possible.
+A cryptographic principle of a "zero knowledge proof" (ZKP) {{GRUBBS}}
+may be one path forward to consider.  A ZKP allows a third party to
+verify that a statement is true, without revealing what the statement
+actually is.  Applying this to network traffic has been shown to allow
+a middlebox to verify that traffic to a web server is actually
+compliant with a policy without revealing the actual contents.  This
+solution meets the above three criteria.  Using ZKP within TLS 1.3
+traffic turns out to be plausible.
 
 An example engine was built to test ZKP using encrypted DNS.  Clients
-could then create DNS requests that were not in a DNS block list and
-middleboxes could be assured, without knowing the exact request, that
-the client's DNS request was not on the block list.  Although the
-result was functional, the overhead was still slow and future work
-needs to be used to decrease ZKP imposed latencies.
+were able to create DNS requests that were not listed within a DNS
+block list.  Middleboxes could verify, without knowing the exact
+request, that the client's DNS request was not in the prohibited list.
+Although the result was functional, the computational overhead was
+still too slow and future work will be needed to decrease the ZKP
+imposed latencies.
 
 ### Red Rover - A collaborative approach to content filtering
 
