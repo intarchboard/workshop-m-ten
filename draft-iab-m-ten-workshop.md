@@ -454,6 +454,26 @@ compromise between the tension of privacy vs protection based services
 
 # Conclusions
 
+Scalability of solutions will likely be an issue.  Collaboration is
+required for many of these mechanisms.  Will network operators be
+willing to dial back requirements in exchange for clients to do the
+right thing?  Should some of these solutions be required before
+increased encryption happens, for example with TLS/ECH.  Part of the
+problem is that problem space itself -- there is a wide variety of
+networks with different requirements for both encryption and
+management.  Every problem space may be different with different
+encumbrances of multiple types: technical, legal, data ownership,
+regulations, etc.  It may be that a new network architecture is needed
+to solve this problem at a large scope, which would require
+interoperability of all network product vendors.  In the end, we
+should recognize that one solution will not solve all these cases and
+it is more likely that different use cases will require different
+solutions.  One path forward might be better standardization for
+methods of transmitting and agreeing to allow and block lists.
+Finally education about any solutions will be required in order to
+ensure regulation and policy creators can understand and support the
+developed solutions.
+
 --- back
 
 # Position Papers {#positionpapers}
