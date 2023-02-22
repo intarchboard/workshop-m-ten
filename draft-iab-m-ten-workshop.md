@@ -454,25 +454,32 @@ compromise between the tension of privacy vs protection based services
 
 # Conclusions
 
-Scalability of solutions will likely be an issue.  Collaboration is
-required for many of these mechanisms.  Will network operators be
-willing to dial back requirements in exchange for clients to do the
-right thing?  Should some of these solutions be required before
-increased encryption happens, for example with TLS/ECH.  Part of the
-problem is that problem space itself -- there is a wide variety of
-networks with different requirements for both encryption and
-management.  Every problem space may be different with different
-encumbrances of multiple types: technical, legal, data ownership,
-regulations, etc.  It may be that a new network architecture is needed
-to solve this problem at a large scope, which would require
-interoperability of all network product vendors.  In the end, we
-should recognize that one solution will not solve all these cases and
-it is more likely that different use cases will require different
-solutions.  One path forward might be better standardization for
-methods of transmitting and agreeing to allow and block lists.
-Finally education about any solutions will be required in order to
-ensure regulation and policy creators can understand and support the
-developed solutions.
+Looking forward, the workshop participants identified that solving the
+entire problem space will be challenging for a number of reasons.
+First, scalability of many solutions will likely be an issue as some
+solutions are expensive in implementation.  Collaboration between
+multiple parties will be required for many mechanisms to function.
+Finally, there is an unanswered question of whether or not network
+operators be willing to participate and allow technologies into their
+environment requirements in exchange for technologies that prove their
+clients are being good net-citizens?  If so, should some of these
+solutions be required to exist before increased encryption happens,
+for example with TLS/ECH that is being block by some network
+operators.
+
+The breadth of the problem space itself is another complicating
+factor.  A wide variety of networks architectures exist that have
+different requirements for both data encryption and network
+management.  Every problem space will have different encumbrances of
+multiple types, for example technical, legal, data ownership,
+regulations, etc.  A new network architecture may be needed to solve
+this problem at a larger scope, which would in turn require
+interoperability support from all network product vendors.  In the
+end, we should recognize that one solution will not solve all these
+cases and it is more likely that different use cases will require
+different solutions.  Finally education about any solutions will be
+required in order to ensure regulation and policy organizations can
+understand and thus support the deployment of developed solutions.
 
 --- back
 
