@@ -444,7 +444,7 @@ clients need to protect user's privacy and user security.
 
 Safe browsing, originally created by Google, is one example of a
 mechanism that tries to meet both sides of this conflict.  It would be
-beneficial to standardize this and other similar mechanisms.  
+beneficial to standardize this and other similar mechanisms.
 Operating systems could continually protect their users by ensuring
 that malicious destinations are not being reached.  This would require
 some coordination between cooperating clients and servers offering
@@ -455,29 +455,30 @@ compromise between the tension of privacy vs protection based services
 # Conclusions
 
 Looking forward, the workshop participants identified that solving the
-entire problem space will be challenging for a number of reasons.
-First, scalability of many solutions will likely be an issue as some
-solutions are expensive in implementation.  Collaboration between
-multiple parties will be required for many mechanisms to function.
-Finally, there is an unanswered question of whether or not network
-operators be willing to participate and allow technologies into their
-environment requirements in exchange for technologies that prove their
-clients are being good net-citizens?  If so, should some of these
-solutions be required to exist before increased encryption happens,
-for example with TLS/ECH that is being block by some network
+entire problem space with a single approach will be challenging for a
+number of reasons. First, scalability of many solutions will likely
+be an issue as some solutions are expensive in implementation.
+Collaboration between multiple parties will be required for many
+mechanisms to function. Finally, there is an unanswered question
+of whether or not network operators be willing to participate and
+allow technologies into their environment requirements in exchange
+for technologies that prove their clients are being good net-citizens.
+If so, some of these solutions might be required to exist before
+networks allow certain type of increased encryption; consider the
+example of TLS Encrypted Client Hello being blocked by some network
 operators.
 
 The breadth of the problem space itself is another complicating
 factor.  A wide variety of networks architectures exist that have
 different requirements for both data encryption and network
-management.  Every problem space will have different encumbrances of
-multiple types, for example technical, legal, data ownership,
-regulations, etc.  A new network architecture may be needed to solve
-this problem at a larger scope, which would in turn require
-interoperability support from all network product vendors.  In the
+management.  Each problem space will have different encumbrances of
+multiple types; for example, technical, legal, data ownership,
+adn regulatory concerns.  New network architectures might be needed to
+solve this problem at a larger scope, which would in turn require
+interoperability support from network product vendors.  In the
 end, we should recognize that one solution will not solve all these
 cases and it is more likely that different use cases will require
-different solutions.  Finally education about any solutions will be
+different solutions.  Education about various solutions will be
 required in order to ensure regulation and policy organizations can
 understand and thus support the deployment of developed solutions.
 
