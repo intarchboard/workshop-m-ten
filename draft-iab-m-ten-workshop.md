@@ -82,7 +82,7 @@ informative:
     author:
       -
         ins:  N. Elkins
-        name: Luca Deri
+        name: Nalini Elkins
       -
         ins:  M. Ackermann
         name: Mike Ackermann
@@ -263,7 +263,7 @@ The aim of this IAB online workshop from October 17-19, 2022, has been to provid
 
 # Workshop Scope and Discussion
 
-The workshop was organized across three, all-group discussion slots, one per day. The following topic areas were identified and the program committee organized paper submissions into three main themes for each of the three discussion slots. During each discussion, those papers were presented sequentially with open discussion held at the end of each day.
+The workshop was organized across three days with all-group discussion slots, one per day. The following topic areas were identified and the program committee organized paper submissions into three main themes for each of the three discussion slots. During each discussion, those papers were presented sequentially with open discussion held at the end of each day.
 
 ## “Where we are” - Requirements and Passive Observations {#day1}
 
@@ -303,11 +303,11 @@ Various techniques for data collection can also improve user privacy, such as di
 
 The intents and goals of users, application developers, and network operators align in some cases, but not others. One of the recurring challenges that came up was not having a clear way to understand or communicate intents and requirements. Both traffic classification and traffic obfuscation attempt to change the visibility of traffic without cooperation of other parties: traffic classification is a network attempting to inspect application traffic without coordination from applications, and traffic obfuscation is an attempt to hide that same traffic as it transits a network.
 
-Traffic adaptation and prioritization is one dimension in which the incentives for cooperation seem most clear. Even if an application is trying to prevent leaking metadata, it could benefit from signals from network about sudden capacity changes that can help it adapt its application quality, such as bitrates and codecs. Such signalling may not be appropriate for the most privacy-sensitive applications, like Tor, but could be applicable for many others. There are existing protocols that involve explicit signaling between applications and networks, such as ECN {{?RFC3168}}, but that has yet to see wide adoption.
+Traffic adaptation and prioritization is one dimension in which the incentives for cooperation seem most clear. Even if an application is trying to prevent leaking metadata, it could benefit from signals from network about sudden capacity changes that can help it adapt its application quality, such as bitrates and codecs. Such signalling may not be appropriate for the most privacy-sensitive applications, like Tor, but could be applicable for many others. There are existing protocols that involve explicit signaling between applications and networks, such as Explicit Congestion Notification (ECN) {{?RFC3168}}, but that has yet to see wide adoption.
 
 Managed networks (such a private corporate networks) was brought up in several comments as a particularly challenging area for being able to meet management requirements while maintaining encryption and privacy. These networks can have legal and regulated requirements for detection of specific fraudulent or malicious traffic.
 
-Personal networks that enable managed parental controls have similar complications with encrypted traffic and user privacy. In these scenarios, the parental controls being operated by the network may be as simple as a DNS filter, an can be made ineffective by a device routing traffic to an alternate DNS resolver.
+Personal networks that enable managed parental controls have similar complications with encrypted traffic and user privacy. In these scenarios, the parental controls being operated by the network may be as simple as a DNS filter, and can be made ineffective by a device routing traffic to an alternate DNS resolver.
 
 ## “Where we want to go” - Collaboration Principles {#day2}
 
@@ -317,27 +317,27 @@ After an introduction that covered the goals of the workshop and the starting qu
 
 ### First party collaboration for network management
 
-It is the intention of encryption to create a barrier between entities inside the communication and everyone else, including network operators when we are talking about end-to-end encryption of traffic. Any attempt, therefore, to overcome that intentional barrier requires an intent to collaborate between the inside and outside entities. Those entities must, at a minimum, agree on the benefits to overcoming the barrier (or solving the problem), that costs are proportional to the beenfits, and to additional limitations, or safeguards, against bad behaviour by collaborators including the inclusion of other non-insiders {{BARNES}}.
+It is the intention of encryption to create a barrier between entities inside the communication channel and everyone else, including network operators, considering end-to-end encryption of traffic. Any attempt, therefore, to overcome that intentional barrier requires an intent to collaborate between the inside and outside entities. Those entities must, at a minimum, agree on the benefits to overcoming the barrier (or solving the problem), that costs are proportional to the benefits, and to additional limitations, or safeguards, against bad behaviour by collaborators including the inclusion of other non-insiders {{BARNES}}.
 
-The internet is designed interoperably, which means an outside entity wishing to collaborate with the inside might be any number of intermediaries and not, say, a specific person that can be trusted in the human sense. Additionally the use of encryption, especially network or transport encryption, introduces dynamic or opportunitistic or perfunctory discoverability. These realities both point to a need to interrogate the reason why any outside entity might make an engineering case to collaborate with the user of an encrypted network, and whether the tradeoffs and potential risks are worth it to the user.
+The Internet is designed interoperably, which means an outside entity wishing to collaborate with the inside might be any number of intermediaries and not, say, a specific person that can be trusted in the human sense. Additionally the use of encryption, especially network-layer or transport-layer encryption, introduces dynamic or opportunitistic or perfunctory discoverability. These realities both point to a need to interrogate the reason why any outside entity might make an engineering case to collaborate with the user of a network with encrypted traffic, and whether the tradeoffs and potential risks are worth it to the user.
 
-However the answers cannot be specific and the determinations or guidance need to be general as the encryption boundary is inevitably an application used by many people. Tradeoffs must make sense to users who are unlikely to be thinking about network management considerations. Harms need to be preemptively reduced because in general terms few users would choose network management benefits over their own privacy if given the choice.
+However, the answers cannot be specific and the determinations or guidance need to be general as the encryption boundary is inevitably an application used by many people. Tradeoffs must make sense to users who are unlikely to be thinking about network management considerations. Harms need to be preemptively reduced because in general terms few users would choose network management benefits over their own privacy if given the choice.
 
-Additionally there appear to be little if any actual evidence that encryption is causing user-meaningful network problems. Since alignment on problem solving is a prerequisite to collaboration on a solution it does not seem that collaboration across the encryption boundary is called for.
+Additionally, there appears to be little if any actual evidence that encryption is causing user-meaningful network problems. Since alignment on problem-solving is a prerequisite to collaboration on a solution it does not seem that collaboration across the encryption boundary is called for.
 
 ### Second and third party collaboration for network management
 
-Even with the wide-scale deployment of encryption in new protocols and techniques that prevent passive observers of network traffic from knowing the content of exchanged communications, important information such as which parties communicate and sometimes even which services have been requested may still be able to be deduced. The future is to conceal more data and metadata from passive observers and also to minimize information exposure to second parties (were the user is the first party) by, maybe counterintuitively, introducing third-party relay services to intermediate communications. As discussed in {{KUEHLEWIND}}, the relay is a mechanism to separate, using additional levels of encryption, two important pieces of information: knowledge of the identity of the person accessing a service is separated from knowledge about the service being accessed. By contrast a VPN uses only one level of encryption and does not separate identity (first party) and service (second party) metadata.
+Even with the wide-scale deployment of encryption in new protocols and techniques that prevent passive observers of network traffic from knowing the content of exchanged communications, important information such as which parties communicate and sometimes even which services have been requested may still be able to be deduced. The future is to conceal more data and metadata from passive observers and also to minimize information exposure to second parties (where the user is the first party) by, maybe counterintuitively, introducing third-party relay services to intermediate communications. As discussed in {{KUEHLEWIND}}, the relay is a mechanism to separate (using additional levels of encryption) two important pieces of information: knowledge of the identity of the person accessing a service is separated from knowledge about the service being accessed. By contrast a VPN uses only one level of encryption and does not separate identity (first party) and service (second party) metadata.
 
-Relay mechanisms are termed "oblivious", there is a future for specifications in privacy-preserving measurement (PPM), and protocols like Multiplexed Application Substrate over QUIC Encryption (MASQUE) are discussed in the IETF. In various schemes users are ideally able to share their identity only with the entity they have identified as a trusted one. That data is not shared with the service provider. However this is more complicated for network management, but there may be opportunities for better collaboration between the network and, say, the application or service at the endpoint.
+Relay mechanisms are termed "oblivious", there is a future for specifications in privacy-preserving measurement (PPM), and protocols like Multiplexed Application Substrate over QUIC Encryption (MASQUE) are discussed in the IETF. In various schemes, users are ideally able to share their identity only with the entity they have identified as a trusted one. That data is not shared with the service provider. However this is more complicated for network management, but there may be opportunities for better collaboration between the network and, say, the application or service at the endpoint.
 
-A queriable relay mechanism could preserve network management functions that are disrupted by encryption, such as TCP optimisation, quality of service, zero-rating, parental controls, access control, redirection, content enhancement, analytics and fraud prevention. Instead of encrypted communication between only two between the ends and passive observation by all on-path elements, intermediate relays could be trusted parties with limited information for the purposes of collaboration between in-network intermediary services' support.
+A queriable relay mechanism could preserve network management functions that are disrupted by encryption, such as TCP optimisation, quality of service, zero-rating, parental controls, access control, redirection, content enhancement, analytics and fraud prevention. Instead of encrypted communication between only two ends and passive observation by all on-path elements, intermediate relays could be trusted parties with limited information for the purposes of collaboration between in-network intermediary services' support.
 
 ### Visible, optional network management
 
-In encrypted communications, out of all of the possible network management functions that might be ameliorated by proxying the ability to control congestion has been researched in depth. These techniques are realized based on TCP performance enhancing proxies (PEP) that either entirely intercept a TCP connection or interfere with the transport information in the TCP header. However, beside the challenge that new encrypted protocol limited any such in-network interference, these techniques can also have negative impact on the evolvability of these protocols. Therefore, instead on manipulating existing information, a new approaches was presented  where additional information is send using a so-called side-car protocol independent of the main transport protocol that is used end-to-end {{WELZL}}. E.g. side car information can contain additional acknowledgements to enable in-network local retransmission faster end-to-end retransmission by reducing the signaling round trip time.
+In encrypted communications, out of all of the possible network management functions that might be ameliorated by proxying, the ability to control congestion has been researched in depth. These techniques are realized based on TCP performance enhancing proxies (PEP) that either entirely intercept a TCP connection or interfere with the transport information in the TCP header. However, despite the challenge that the new encrypted protocol will limit any such in-network interference, these techniques can also have a negative impact on the evolvability of these protocols. Therefore, instead of manipulating existing information, a new approach was presented  where additional information is send using a so-called side-car protocol independent of the main transport protocol that is used end-to-end {{WELZL}}. E.g. side car information can contain additional acknowledgements to enable in-network local retransmission faster end-to-end retransmission by reducing the signaling round trip time.
 
-Taking user privacy benefits for granted, there is a need to investigate the comparable performance outputs of various encrypted traffic configurations such as use of an additional "side-car" protocol, or explicit encrypted and trusted network communication using MASQUE in relation to existing techniques based TCP performance enhancing proxies (PEP), etc.
+Taking user privacy benefits for granted, there is a need to investigate the comparable performance outputs of various encrypted traffic configurations such as use of an additional "side-car" protocol, or explicit encrypted and trusted network communication using MASQUE in relation to existing techniques such as TCP performance enhancing proxies (PEP), etc.
 
 ### Discussion
 
@@ -345,7 +345,7 @@ One size fits all? On the issue of trust, different networks or devices are goin
 
 Does our destination have consequences? It seems sometimes that there may be consequences many years down the line of ubiquitous, strong encryption of network traffic because it will cause a reaction by intermediaries to find ways to poke holes in what are supposed to be long-term solutions for user privacy and security.
 
-Can we bring the user along? While there has been a focus on the good reasons for why people might collaborate across the encryption barrier, there will always be others who want to disrupt that because they are motivated to exploit the data for their own gain, and sometimes this is called innovation. What high-level policy mitigations hvae done is to expose how powerless end users are to corporate practices of data harvesting. And yet interfaces to help users understand these lower layer traffic flows to protect their financial transactions or privacy haven't been achieved yet. That means that engineers are having to make inferences about what users want. Instead we should be making these relationships and tradeoffs more visible.
+Can we bring the user along? While there has been a focus on the good reasons for why people might collaborate across the encryption barrier, there will always be others who want to disrupt that because they are motivated to exploit the data for their own gain, and sometimes this is called innovation. What high-level policy mitigations have done is to expose how powerless end users are to corporate practices of data harvesting. And yet interfaces to help users understand these lower layer traffic flows to protect their financial transactions or privacy haven't been achieved yet. That means that engineers are having to make inferences about what users want. Instead we should be making these relationships and tradeoffs more visible.
 
 ## “How we get there” - Collaboration Use cases {#day3}
 
@@ -366,7 +366,7 @@ states of network behavior.
 Because network operators have a limited amount of time to focus on
 problems and process alerts, contracts and states let the operator
 focus on a particular aspect of a current situation or problem.  The
-current estimate for the number of events an SOC operator can handle
+current estimate for the number of events a Security Operations Center (SOC) operator can handle
 is about 10 per hour.  Operators must work within the limits imposed
 by their organization, and must pick between options that frequently
 only frustrate attackers -- entirely preventing attacks is potentially
@@ -386,11 +386,11 @@ succeed in freeing up analyst time to concentrate on the more
 challenging events.
 
 The proposed contract solution is to define a collection of acceptable
-behaviors categorized into a envelope of different states that might
+behaviors categorized into an envelope of different states that might
 include IP addresses, domain names, and indicators of compromise.
 Deviation from a contract might indicate that a system is acting
-outside a normal mode of behavior, or even that a normal mode of
-behavior is suddenly missing.  An example contracts might be "this
+outside a normal mode of behavior, or even a normal mode of
+behavior is suddenly missing.  An example contract might be "this
 system is expected to update its base OS once a day", and if this
 doesn't occur then this expectation has not been met and the system
 should be checked as it failed to call home to look for (potentially
@@ -405,7 +405,7 @@ connections.
 
 ### Zero Knowledge Middleboxes
 
-The world is not only shifting to increased encrypted traffic, but is
+The world is not only shifting to increased encrypted traffic but is
 also encrypting more and more of the metadata (e.g. DNS queries and
 responses).  This makes network policy enforcement by middleboxes
 significantly more challenging.  The result is the creation of a
@@ -417,8 +417,8 @@ encryption, should enable networks to enforce their policies, and
 should ideally not require newly deployed server software.  Existing
 solutions fail with at least one of these points.
 
-A cryptographic principle of a "zero knowledge proof" (ZKP) {{GRUBBS}}
-may be one path forward to consider.  A ZKP allows a third party to
+A cryptographic principle of a "zero-knowledge proof" (ZKP) {{GRUBBS}}
+maybe one path forward to consider.  A ZKP allows a third party to
 verify that a statement is true, without revealing what the statement
 actually is.  Applying this to network traffic has been shown to allow
 a middlebox to verify that traffic to a web server is actually
@@ -455,25 +455,25 @@ compromise between the tension of privacy vs protection based services
 # Conclusions
 
 Looking forward, the workshop participants identified that solving the
-entire problem space with a single approach will be challenging for a
-number of reasons. First, scalability of many solutions will likely
-be an issue as some solutions are expensive in implementation.
+entire problem space with a single approach will be challenging for
+several reasons. First, the scalability of many solutions will likely
+be an issue as some solutions are expensive to implement.
 Collaboration between multiple parties will be required for many
 mechanisms to function. Finally, there is an unanswered question
 of whether or not network operators be willing to participate and
 allow technologies into their environment requirements in exchange
 for technologies that prove their clients are being good net-citizens.
 If so, some of these solutions might be required to exist before
-networks allow certain type of increased encryption; consider the
+networks allow a certain type of increased encryption; consider the
 example of TLS Encrypted Client Hello being blocked by some network
 operators.
 
 The breadth of the problem space itself is another complicating
-factor.  A wide variety of networks architectures exist that have
+factor.  A wide variety of network architectures exist that have
 different requirements for both data encryption and network
 management.  Each problem space will have different encumbrances of
 multiple types; for example, technical, legal, data ownership,
-adn regulatory concerns.  New network architectures might be needed to
+and regulatory concerns.  New network architectures might be needed to
 solve this problem at a larger scope, which would in turn require
 interoperability support from network product vendors.  In the
 end, we should recognize that one solution will not solve all these
@@ -526,7 +526,7 @@ Nalini Elkins, Mike Ackermann, Mohit P. Tahiliani, Dhruv Dhody, Prof. Tommaso Pe
 
 # Workshop participants {#participants}
 
-The workshop participants were Cindy Morgan, Colin Perkins, Cullen Jennings, Deborah Brungard, Dhruv Dhody, Eric Vyncke, Georg Carle, Ivan Nardi, Jari Arkko, Jason Livingood, Jiankang Yao, Karen O'Donoghue, Keith Winstein, Lars Eggert, Laurent Vanbever, Luca Deri, Mallory Knodel, Marcus Ihlar, Matteo, Michael Ackermann, Michael Collins, Michael Richardson, Michael Welzl, Mike Ackermann, Mirja Kühlewind, Mohit P. Tahiliani, Nalini Elkins, Patrick Tarpey, paul grubbs, Pedro Casas, Qin Wu, Qiufang, Richard Barnes, Rob Wilton, Russ White, Saloua Naama, Shinan Liu, Srinivas C, Toerless Eckert, Tommy Pauly, Wes Hardaker, Xi Chase Jiang, Zaheduzzaman Sarker, Zhenbin Li.
+The workshop participants were Cindy Morgan, Colin Perkins, Cullen Jennings, Deborah Brungard, Dhruv Dhody, Eric Vyncke, Georg Carle, Ivan Nardi, Jari Arkko, Jason Livingood, Jiankang Yao, Karen O'Donoghue, Keith Winstein, Lars Eggert, Laurent Vanbever, Luca Deri, Mallory Knodel, Marcus Ihlar, Matteo, Michael Ackermann, Michael Collins, Michael Richardson, Michael Welzl, Mike Ackermann, Mirja Kühlewind, Mohit P. Tahiliani, Nalini Elkins, Patrick Tarpey, Paul Grubbs, Pedro Casas, Qin Wu, Qiufang, Richard Barnes, Rob Wilton, Russ White, Saloua Naama, Shinan Liu, Srinivas C, Toerless Eckert, Tommy Pauly, Wes Hardaker, Xi Chase Jiang, Zaheduzzaman Sarker, and Zhenbin Li.
 
 # Program Committee
 
