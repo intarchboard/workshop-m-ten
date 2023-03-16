@@ -455,7 +455,7 @@ compromise between the tension of privacy vs protection based services
 # Conclusions
 
 Looking forward, the workshop participants identified that solving the
-entire problem space with a single approach will be challenging for 
+entire problem space with a single approach will be challenging for
 several reasons. First, the scalability of many solutions will likely
 be an issue as some solutions are expensive to implement.
 Collaboration between multiple parties will be required for many
