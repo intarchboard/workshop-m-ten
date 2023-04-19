@@ -483,7 +483,7 @@ various solutions will be required in order to ensure regulation and
 policy organizations can understand and thus support the deployment of
 developed solutions.
 
-After new technologies (and related standards) are developed and deployed,
+After new technologies and related standards are developed and deployed,
 unintended consequences can emerge that weren't considered during the
 design of the protocol. These lead to effects in multiple directions:
 on one hand, exposed protocol values not intended for network management
