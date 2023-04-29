@@ -456,31 +456,45 @@ compromise between the tension of privacy vs protection based services
 
 Looking forward, the workshop participants identified that solving the
 entire problem space with a single approach will be challenging for
-several reasons. First, the scalability of many solutions will likely
-be an issue as some solutions are expensive to implement.
-Collaboration between multiple parties will be required for many
-mechanisms to function. Finally, there is an unanswered question
-of whether or not network operators be willing to participate and
-allow technologies into their environment requirements in exchange
-for technologies that prove their clients are being good net-citizens.
-If so, some of these solutions might be required to exist before
-networks allow a certain type of increased encryption; consider the
-example of TLS Encrypted Client Hello being blocked by some network
-operators.
+several reasons:
+
+- The scalability of many solutions will likely be an issue as some
+solutions are complex or expensive to implement.
+- Collaboration between multiple parties will be required for many
+mechanisms to function, and the sets of parties required for different
+use cases might be disjoint.
+- There is an unanswered question of whether or not network operators
+be willing to participate and allow technologies into their environment
+requirements in exchange for technologies that prove their clients are
+being good net-citizens. If so, some of these solutions might be required
+to exist before networks allow a certain type of increased encryption;
+consider the example of TLS Encrypted Client Hello being blocked by
+some network operators.
 
 The breadth of the problem space itself is another complicating
-factor.  A wide variety of network architectures exist that have
-different requirements for both data encryption and network
+factor.  There is a wide variety of network architectures, and each
+has different requirements for both data encryption and network
 management.  Each problem space will have different encumbrances of
 multiple types; for example, technical, legal, data ownership,
 and regulatory concerns.  New network architectures might be needed to
 solve this problem at a larger scope, which would in turn require
-interoperability support from network product vendors.  In the
-end, we should recognize that one solution will not solve all these
-cases and it is more likely that different use cases will require
-different solutions.  Education about various solutions will be
-required in order to ensure regulation and policy organizations can
-understand and thus support the deployment of developed solutions.
+interoperability support from network product vendors.  Education about
+various solutions will be required in order to ensure regulation and
+policy organizations can understand and thus support the deployment of
+developed solutions.
+
+After new technologies and related standards are developed and deployed,
+unintended consequences can emerge that weren't considered during the
+design of the protocol. These lead to effects in multiple directions:
+on one hand, exposed protocol values not intended for network management
+might be used by networks to differentiate traffic; on the other hand,
+changes to a protocol might have impact on private network deployments
+that break existing use cases. While making decisions on technology
+direction and protocol design, it is important to consider the impact on
+various kinds of network deployments and their unique requirements.
+When protocols change to make different network management functions
+easier or harder, the impact on various deployment models ought to be
+considered and documented.
 
 --- back
 
