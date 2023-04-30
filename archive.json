@@ -1,0 +1,519 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-04-30T00:00:47.777617+00:00",
+  "repo": "intarchboard/workshop-m-ten",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 4,
+      "id": "I_kwDOIDFkIM5cfIwI",
+      "title": "Day 2, third presentation on PEPs",
+      "url": "https://github.com/intarchboard/workshop-m-ten/issues/4",
+      "state": "CLOSED",
+      "author": "mallory",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I would really appreciate some help in digesting in an intelligible summary the third presentation in day 2. I have perhaps reached a state of fatigue, but also I interpret the paper and the presentation of specific research on TCP optimisation of which I am not expert. Anyone who could take the pen on an additional paragraph or two to describe the paper's main recommendations in the context of the entire day (which I felt was rather cohesive) would have my eternal gratitude.",
+      "createdAt": "2023-01-21T02:46:11Z",
+      "updatedAt": "2023-01-27T15:09:57Z",
+      "closedAt": "2023-01-27T15:09:57Z",
+      "comments": []
+    },
+    {
+      "number": 10,
+      "id": "I_kwDOIDFkIM5g62NP",
+      "title": "Unintended Consequences",
+      "url": "https://github.com/intarchboard/workshop-m-ten/issues/10",
+      "state": "CLOSED",
+      "author": "dhruvdhody",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "One takeaway from the workshop for me was that we need to think more deeply about the unintended consequences of our work such as how it impacts other network deployments (such as managed private networks). \r\n\r\nI want to check if this should be spelt out explicitly, we do have some text that mentions this as an example but should we go further? Thoughts? ",
+      "createdAt": "2023-03-15T18:22:53Z",
+      "updatedAt": "2023-04-29T02:50:49Z",
+      "closedAt": "2023-04-29T02:50:49Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "I guess we could add something to the confusion discussion. Do you want to propose some text? That usually easier to have a discussion.",
+          "createdAt": "2023-03-16T08:27:38Z",
+          "updatedAt": "2023-03-16T08:27:38Z"
+        },
+        {
+          "author": "hardaker",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "mirija: s/confusion/conclusion/.  ha ha.",
+          "createdAt": "2023-03-18T13:15:26Z",
+          "updatedAt": "2023-03-18T13:15:26Z"
+        },
+        {
+          "author": "dhruvdhody",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Here is a draft text, feel free to use or reword it as you see fit! \r\n````\r\nAs new technologies (and related standards) are developed and deployed, \r\nit can be surprising to see their unintended consequences. While making \r\ndecisions on technology direction, it is important to factor in its impact on \r\nall kinds of network deployments and their unique requirements. There could \r\nbe trade-offs, which need careful examination and conceivably look out for \r\nalternate means of achieving the desired goals. If they cannot be, these \r\nchoices and reasoning ought to be thoroughly documented. \r\n````",
+          "createdAt": "2023-03-18T14:03:26Z",
+          "updatedAt": "2023-03-18T14:03:26Z"
+        }
+      ]
+    }
+  ],
+  "pulls": [
+    {
+      "number": 3,
+      "id": "PR_kwDOIDFkIM5HLVT3",
+      "title": "D2, general doc input",
+      "url": "https://github.com/intarchboard/workshop-m-ten/pull/3",
+      "state": "MERGED",
+      "author": "mallory",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-01-11T17:24:21Z",
+      "updatedAt": "2023-01-17T18:34:01Z",
+      "baseRepository": "intarchboard/workshop-m-ten",
+      "baseRefName": "main",
+      "baseRefOid": "8b03b78ee891b894aecd2f31d6cbe0bee4fee9f7",
+      "headRepository": "mallory/workshop-m-ten",
+      "headRefName": "main",
+      "headRefOid": "e800d0f0325994d7161890e5c29a7ef4c2ed6d94",
+      "closedAt": "2023-01-17T18:34:00Z",
+      "mergedAt": "2023-01-17T18:34:00Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "4f4ecffc4e69866f6d74aed60cbce5eca92a77f5"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOIDFkIM5KowPS",
+          "commit": {
+            "abbreviatedOid": "fc941e7"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-01-17T18:33:08Z",
+          "updatedAt": "2023-01-17T18:33:08Z",
+          "comments": [
+            {
+              "originalPosition": 79,
+              "body": "```suggestion\r\nRichard Barnes. \u201cWhat\u2019s In It For Me? Revisiting the reasons people collaborate.\u201d {{BARNES}}\r\n```",
+              "createdAt": "2023-01-17T18:33:08Z",
+              "updatedAt": "2023-01-17T18:33:08Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "PR_kwDOIDFkIM5IrbtL",
+      "title": "Proposed additional text on traffic obfuscation",
+      "url": "https://github.com/intarchboard/workshop-m-ten/pull/5",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-01-27T13:43:34Z",
+      "updatedAt": "2023-02-01T15:30:58Z",
+      "baseRepository": "intarchboard/workshop-m-ten",
+      "baseRefName": "main",
+      "baseRefOid": "64132b714a4325675d70b6323408ab710e27e37a",
+      "headRepository": "intarchboard/workshop-m-ten",
+      "headRefName": "mirjak-patch-1",
+      "headRefOid": "37ef290871c856f20222f8fe68ac574c4e5c6925",
+      "closedAt": "2023-02-01T15:30:58Z",
+      "mergedAt": "2023-02-01T15:30:58Z",
+      "mergedBy": "tfpauly",
+      "mergeCommit": {
+        "oid": "49dbcee56f2da4d15bc24701e5d7358ef25b16f0"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOIDFkIM5MQVhV",
+          "commit": {
+            "abbreviatedOid": "37ef290"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-02-01T15:30:53Z",
+          "updatedAt": "2023-02-01T15:30:53Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOIDFkIM5IritU",
+      "title": "small edits and adding reference to session 2",
+      "url": "https://github.com/intarchboard/workshop-m-ten/pull/6",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-01-27T14:06:16Z",
+      "updatedAt": "2023-01-27T14:07:54Z",
+      "baseRepository": "intarchboard/workshop-m-ten",
+      "baseRefName": "main",
+      "baseRefOid": "64132b714a4325675d70b6323408ab710e27e37a",
+      "headRepository": "intarchboard/workshop-m-ten",
+      "headRefName": "mirjak-patch-2",
+      "headRefOid": "bc5298b0fe50f76e212cf0f632943b52d8145e0b",
+      "closedAt": "2023-01-27T14:07:53Z",
+      "mergedAt": "2023-01-27T14:07:53Z",
+      "mergedBy": "mallory",
+      "mergeCommit": {
+        "oid": "cfe2600654c21502475271085d8beef2388ba147"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOIDFkIM5L3Knk",
+          "commit": {
+            "abbreviatedOid": "bc5298b"
+          },
+          "author": "mallory",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-01-27T14:07:45Z",
+          "updatedAt": "2023-01-27T14:07:45Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "PR_kwDOIDFkIM5Irrel",
+      "title": "text on side-car protocol",
+      "url": "https://github.com/intarchboard/workshop-m-ten/pull/7",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "fixes #4",
+      "createdAt": "2023-01-27T14:32:27Z",
+      "updatedAt": "2023-01-27T15:09:56Z",
+      "baseRepository": "intarchboard/workshop-m-ten",
+      "baseRefName": "main",
+      "baseRefOid": "cfe2600654c21502475271085d8beef2388ba147",
+      "headRepository": "intarchboard/workshop-m-ten",
+      "headRefName": "mirjak-patch-3",
+      "headRefOid": "b8f1e1946da07d8348e3240a3d5f8e5663b218de",
+      "closedAt": "2023-01-27T15:09:56Z",
+      "mergedAt": "2023-01-27T15:09:56Z",
+      "mergedBy": "mallory",
+      "mergeCommit": {
+        "oid": "4373b9a29dc3ae1ea4abe3172fc264dbb3d8fc0e"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOIDFkIM5L3l87",
+          "commit": {
+            "abbreviatedOid": "b8f1e19"
+          },
+          "author": "mallory",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-01-27T15:09:48Z",
+          "updatedAt": "2023-01-27T15:09:48Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOIDFkIM5Irt9-",
+      "title": "nits and references section 2.3",
+      "url": "https://github.com/intarchboard/workshop-m-ten/pull/8",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-01-27T14:40:46Z",
+      "updatedAt": "2023-01-27T15:40:40Z",
+      "baseRepository": "intarchboard/workshop-m-ten",
+      "baseRefName": "main",
+      "baseRefOid": "cfe2600654c21502475271085d8beef2388ba147",
+      "headRepository": "intarchboard/workshop-m-ten",
+      "headRefName": "mirjak-patch-4",
+      "headRefOid": "61caf82c070ca0ea63a6dec243d95e3da4895be0",
+      "closedAt": "2023-01-27T15:40:39Z",
+      "mergedAt": "2023-01-27T15:40:39Z",
+      "mergedBy": "hardaker",
+      "mergeCommit": {
+        "oid": "1a04d744157235a8621c829424182327d4f91d9c"
+      },
+      "comments": [
+        {
+          "author": "hardaker",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "ha; I'm surprised that is the only list of nit changes.  I actually want to rewrite sections to flow better, which will be coming soon.",
+          "createdAt": "2023-01-27T15:40:35Z",
+          "updatedAt": "2023-01-27T15:40:35Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 9,
+      "id": "PR_kwDOIDFkIM5MHBz8",
+      "title": "Just some nits...",
+      "url": "https://github.com/intarchboard/workshop-m-ten/pull/9",
+      "state": "MERGED",
+      "author": "dhruvdhody",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-03-15T14:00:31Z",
+      "updatedAt": "2023-03-16T12:58:41Z",
+      "baseRepository": "intarchboard/workshop-m-ten",
+      "baseRefName": "main",
+      "baseRefOid": "4511b6a590c34cb0e95845bbd9edd6c9f2fd4ebd",
+      "headRepository": "intarchboard/workshop-m-ten",
+      "headRefName": "dd-patch-1",
+      "headRefOid": "253740d4b1a7729c7a904561447dfaa270f7f05e",
+      "closedAt": "2023-03-16T12:58:41Z",
+      "mergedAt": "2023-03-16T12:58:41Z",
+      "mergedBy": "tfpauly",
+      "mergeCommit": {
+        "oid": "4de9a94a8bebadc2e60d012eec7915dc1605f404"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOIDFkIM5P-2q8",
+          "commit": {
+            "abbreviatedOid": "5f8d54d"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-15T16:06:02Z",
+          "updatedAt": "2023-03-15T16:06:02Z",
+          "comments": [
+            {
+              "originalPosition": 37,
+              "body": "```suggestion\r\nIt is the intention of encryption to create a barrier between entities inside the communication channel and everyone else, including network operators, considering end-to-end encryption of traffic. Any attempt, therefore, to overcome that intentional barrier requires an intent to collaborate between the inside and outside entities. Those entities must, at a minimum, agree on the benefits to overcoming the barrier (or solving the problem), that costs are proportional to the benefits, and to additional limitations, or safeguards, against bad behaviour by collaborators including the inclusion of other non-insiders {{BARNES}}.\r\n```",
+              "createdAt": "2023-03-15T16:06:02Z",
+              "updatedAt": "2023-03-15T16:06:02Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOIDFkIM5P-3fG",
+          "commit": {
+            "abbreviatedOid": "5f8d54d"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-15T16:07:38Z",
+          "updatedAt": "2023-03-15T16:07:38Z",
+          "comments": [
+            {
+              "originalPosition": 62,
+              "body": "```suggestion\r\nIn encrypted communications, out of all of the possible network management functions that might be ameliorated by proxying, the ability to control congestion has been researched in depth. These techniques are realized based on TCP performance enhancing proxies (PEP) that either entirely intercept a TCP connection or interfere with the transport information in the TCP header. However, despite the challenge that the new encrypted protocol will limit any such in-network interference, these techniques can also have a negative impact on the evolvability of these protocols. Therefore, instead of manipulating existing information, a new approach was presented  where additional information is send using a so-called side-car protocol independent of the main transport protocol that is used end-to-end {{WELZL}}. E.g. side car information can contain additional acknowledgements to enable in-network local retransmission faster end-to-end retransmission by reducing the signaling round trip time.\r\n```",
+              "createdAt": "2023-03-15T16:07:38Z",
+              "updatedAt": "2023-03-15T16:08:46Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOIDFkIM5P-4ZL",
+          "commit": {
+            "abbreviatedOid": "5f8d54d"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-03-15T16:09:31Z",
+          "updatedAt": "2023-03-15T16:09:31Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOIDFkIM5P_2BD",
+          "commit": {
+            "abbreviatedOid": "682b80c"
+          },
+          "author": "mallory",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-03-15T18:27:47Z",
+          "updatedAt": "2023-03-15T18:27:47Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOIDFkIM5QF0Wu",
+          "commit": {
+            "abbreviatedOid": "682b80c"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-03-16T12:56:40Z",
+          "updatedAt": "2023-03-16T12:56:40Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOIDFkIM5QF0zp",
+          "commit": {
+            "abbreviatedOid": "682b80c"
+          },
+          "author": "tfpauly",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-16T12:57:43Z",
+          "updatedAt": "2023-03-16T12:57:44Z",
+          "comments": [
+            {
+              "originalPosition": 129,
+              "body": "```suggestion\r\nentire problem space with a single approach will be challenging for\r\n```",
+              "createdAt": "2023-03-16T12:57:43Z",
+              "updatedAt": "2023-03-16T12:57:44Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "id": "PR_kwDOIDFkIM5Osiwx",
+      "title": "Add paragraph on unintended consequences",
+      "url": "https://github.com/intarchboard/workshop-m-ten/pull/11",
+      "state": "MERGED",
+      "author": "tfpauly",
+      "authorAssociation": "MEMBER",
+      "assignees": [
+        "tfpauly"
+      ],
+      "labels": [],
+      "body": "Closes #10",
+      "createdAt": "2023-04-19T17:46:23Z",
+      "updatedAt": "2023-04-29T02:50:48Z",
+      "baseRepository": "intarchboard/workshop-m-ten",
+      "baseRefName": "main",
+      "baseRefOid": "4de9a94a8bebadc2e60d012eec7915dc1605f404",
+      "headRepository": "intarchboard/workshop-m-ten",
+      "headRefName": "tfpauly-patch-1",
+      "headRefOid": "d943ba3fe3a4d746cfada3d902affb98558cb65b",
+      "closedAt": "2023-04-29T02:50:48Z",
+      "mergedAt": "2023-04-29T02:50:48Z",
+      "mergedBy": "tfpauly",
+      "mergeCommit": {
+        "oid": "f06f2997ad2f46a3839d3076443261cf5cb7d6a5"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOIDFkIM5TAXlg",
+          "commit": {
+            "abbreviatedOid": "d943ba3"
+          },
+          "author": "mallory",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-04-19T17:52:08Z",
+          "updatedAt": "2023-04-19T17:52:08Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOIDFkIM5TAiaS",
+          "commit": {
+            "abbreviatedOid": "d943ba3"
+          },
+          "author": "dhruvdhody",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-04-19T18:20:21Z",
+          "updatedAt": "2023-04-19T18:20:21Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOIDFkIM5TTZbp",
+          "commit": {
+            "abbreviatedOid": "d943ba3"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "Thanks. Like it!",
+          "createdAt": "2023-04-24T09:48:25Z",
+          "updatedAt": "2023-04-24T09:48:25Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}
