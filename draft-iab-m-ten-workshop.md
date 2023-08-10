@@ -411,7 +411,7 @@ should be checked as it failed to call home to look for (potentially
 security related) updates.
 
 Within the IETF, the Manufacturer Usage Description Specification
-(MUDD) {?RFC8520} specification is one subset of contracts.  Note that
+(MUD) {?RFC8520} specification is one subset of contracts.  Note that
 contracts are likely to only succeed in a constrained, expected
 environment maintained by operational staff, and may not work in an
 open internet environment where end users are driving all network
