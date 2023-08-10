@@ -261,6 +261,20 @@ The aim of this IAB online workshop from October 17-19, 2022, has been to provid
 * Who is willing to work on collaborative solutions?
 * What are the starting points for collaborative solutions?
 
+## About this workshop report content
+
+This document is a report on the proceedings of the workshop. The
+views and positions documented in this report are those of the
+workshop participants and do not necessarily reflect IAB views and
+positions.
+
+Furthermore, the content of the report comes from presentations given
+by workshop participants notes taken during the discussions.  The
+content of this report follows the flow and dialog from the workshop
+but does not capture consensus.  The workshop was run under Chatham
+House rules and the content below was extrapolations from some of the
+views of the participants.
+
 # Workshop Scope and Discussion
 
 The workshop was organized across three, all-group discussion slots, one per day. The following topic areas were identified and the program committee organized paper submissions into three main themes for each of the three discussion slots. During each discussion, those papers were presented sequentially with open discussion held at the end of each day.
