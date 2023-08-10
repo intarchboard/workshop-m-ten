@@ -269,11 +269,10 @@ workshop participants and do not necessarily reflect IAB views and
 positions.
 
 Furthermore, the content of the report comes from presentations given
-by workshop participants notes taken during the discussions.  The
-content of this report follows the flow and dialog from the workshop
-but does not capture consensus.  The workshop was run under Chatham
-House rules and the content below was extrapolations from some of the
-views of the participants.
+by workshop participants and notes taken during the discussions,
+without interpretation or validation.  Thus, the content of this
+report follows the flow and dialog of the workshop but does not
+attempt to capture a consensus.
 
 # Workshop Scope and Discussion
 
