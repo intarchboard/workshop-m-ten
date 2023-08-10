@@ -5,9 +5,9 @@
 Network Working Group                                          M. Knodel
 Internet-Draft                         Center for Democracy & Technology
 Intended status: Informational                               W. Hardaker
-Expires: 31 October 2023                                                
+Expires: 11 February 2024                                               
                                                                 T. Pauly
-                                                           29 April 2023
+                                                          10 August 2023
 
 
    Report from the IAB workshop on Management Techniques in Encrypted
@@ -27,8 +27,8 @@ Abstract
 
    Note that this document is a report on the proceedings of the
    workshop.  The views and positions documented in this report are
-   those of the workshop participants and do not necessarily reflect IAB
-   views and positions.
+   those of the expressed during the workshop by participants and do not
+   necessarily reflect IAB views and positions.
 
 About This Document
 
@@ -57,7 +57,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 31 October 2023.
+   This Internet-Draft will expire on 11 February 2024.
 
 Copyright Notice
 
@@ -73,6 +73,7 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction
+     1.1.  About this workshop report content
    2.  Workshop Scope and Discussion
      2.1.  "Where we are" - Requirements and Passive Observations
        2.1.1.  Traffic classification and network management
@@ -135,6 +136,19 @@ Table of Contents
    *  Who is willing to work on collaborative solutions?
 
    *  What are the starting points for collaborative solutions?
+
+1.1.  About this workshop report content
+
+   This document is a report on the proceedings of the workshop.  The
+   views and positions documented in this report are those of the
+   expressed during the workshop by participants and do not necessarily
+   reflect IAB views and positions.
+
+   Furthermore, the content of the report comes from presentations given
+   by workshop participants and notes taken during the discussions,
+   without interpretation or validation.  Thus, the content of this
+   report follows the flow and dialog of the workshop but does not
+   attempt to capture a consensus.
 
 2.  Workshop Scope and Discussion
 
@@ -473,8 +487,8 @@ Table of Contents
    security related) updates.
 
    Within the IETF, the Manufacturer Usage Description Specification
-   (MUDD) {?RFC8520} specification is one subset of contracts.  Note
-   that contracts are likely to only succeed in a constrained, expected
+   (MUD) {?RFC8520} specification is one subset of contracts.  Note that
+   contracts are likely to only succeed in a constrained, expected
    environment maintained by operational staff, and may not work in an
    open internet environment where end users are driving all network
    connections.
@@ -619,9 +633,9 @@ Table of Contents
               Learmonth, I. R., Grover, G., and M. Knodel, "Guidelines
               for Performing Safe Measurement on the Internet", Work in
               Progress, Internet-Draft, draft-irtf-pearg-safe-internet-
-              measurement-07, 28 March 2023,
+              measurement-08, 10 July 2023,
               <https://datatracker.ietf.org/doc/html/draft-irtf-pearg-
-              safe-internet-measurement-07>.
+              safe-internet-measurement-08>.
 
    [JIANG]    Jiang, X., Liu, S., Naama, S., Bronzino, F., Schmitt, P.,
               and N. Feamster, "Towards Designing Robust and Efficient
