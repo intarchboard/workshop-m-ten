@@ -245,7 +245,10 @@ informative:
 
 The “Management Techniques in Encrypted Networks (M-TEN)” workshop was convened by the Internet Architecture Board (IAB) from 17 October 2022 to 19 October 2022 as a three-day online meeting. The workshop was organized in three parts to discuss ways to improve network management techniques in support of even broader adoption of encryption on the Internet. This report summarizes the workshop's discussion and identifies topics that warrant future work and consideration.
 
-Note that this document is a report on the proceedings of the workshop. The views and positions documented in this report are those of the workshop participants and do not necessarily reflect IAB views and positions.
+Note that this document is a report on the proceedings of the
+workshop. The views and positions documented in this report are those
+of the expressed during the workshop by participants and do not
+necessarily reflect IAB views and positions.
 
 --- middle
 
@@ -265,8 +268,8 @@ The aim of this IAB online workshop from October 17-19, 2022, has been to provid
 
 This document is a report on the proceedings of the workshop. The
 views and positions documented in this report are those of the
-workshop participants and do not necessarily reflect IAB views and
-positions.
+expressed during the workshop by participants and do not necessarily
+reflect IAB views and positions.
 
 Furthermore, the content of the report comes from presentations given
 by workshop participants and notes taken during the discussions,
