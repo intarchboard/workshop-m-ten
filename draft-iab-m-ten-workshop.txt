@@ -5,9 +5,9 @@
 Network Working Group                                          M. Knodel
 Internet-Draft                         Center for Democracy & Technology
 Intended status: Informational                               W. Hardaker
-Expires: 11 February 2024                                               
+Expires: 15 February 2024                                               
                                                                 T. Pauly
-                                                          10 August 2023
+                                                          14 August 2023
 
 
    Report from the IAB workshop on Management Techniques in Encrypted
@@ -57,7 +57,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 February 2024.
+   This Internet-Draft will expire on 15 February 2024.
 
 Copyright Notice
 
@@ -337,11 +337,11 @@ Table of Contents
    general terms few users would choose network management benefits over
    their own privacy if given the choice.
 
-   Additionally, there appears to be little if any actual evidence that
-   encryption is causing user-meaningful network problems.  Since
-   alignment on problem-solving is a prerequisite to collaboration on a
-   solution it does not seem that collaboration across the encryption
-   boundary is called for.
+   Some have found that there appears to be little if any actual
+   evidence that encryption is causing user-meaningful network problems.
+   Since alignment on problem-solving is a prerequisite to collaboration
+   on a solution it does not seem that collaboration across the
+   encryption boundary is called for.
 
 2.2.2.  Second and third party collaboration for network management
 
