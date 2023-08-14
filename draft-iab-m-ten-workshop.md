@@ -339,7 +339,11 @@ The Internet is designed interoperably, which means an outside entity wishing to
 
 However, the answers cannot be specific and the determinations or guidance need to be general as the encryption boundary is inevitably an application used by many people. Tradeoffs must make sense to users who are unlikely to be thinking about network management considerations. Harms need to be preemptively reduced because in general terms few users would choose network management benefits over their own privacy if given the choice.
 
-Additionally, there appears to be little if any actual evidence that encryption is causing user-meaningful network problems. Since alignment on problem-solving is a prerequisite to collaboration on a solution it does not seem that collaboration across the encryption boundary is called for.
+Some have found that there appears to be little if any actual evidence
+that encryption is causing user-meaningful network problems. Since
+alignment on problem-solving is a prerequisite to collaboration on a
+solution it does not seem that collaboration across the encryption
+boundary is called for.
 
 ### Second and third party collaboration for network management
 
