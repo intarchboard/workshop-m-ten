@@ -3,7 +3,7 @@ title: "Report from the IAB workshop on Management Techniques in Encrypted Netwo
 abbrev: "M-TEN workshop report"
 category: info
 
-docname: draft-iab-m-ten-workshop-latest-02
+docname: draft-iab-m-ten-workshop-02
 submissiontype: IAB
 number:
 date:
